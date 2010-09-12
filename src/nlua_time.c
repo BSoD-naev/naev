@@ -45,9 +45,9 @@ static const luaL_reg time_methods[] = {
  */
 int nlua_loadTime( lua_State *L, int readonly )
 {
-	(void)readonly;
-	luaL_register(L, "time", time_methods);
-	return 0;
+   (void)readonly;
+   luaL_register(L, "time", time_methods);
+   return 0;
 }
 
 
@@ -78,8 +78,8 @@ int nlua_loadTime( lua_State *L, int readonly )
  */
 static int time_get( lua_State *L )
 {
-	lua_pushnumber( L, ntime_get() );
-	return 1;
+   lua_pushnumber( L, ntime_get() );
+   return 1;
 }
 /**
  * @brief Converts the time to a pretty human readable format.
@@ -94,16 +94,15 @@ static int time_get( lua_State *L )
  */
 static int time_str( lua_State *L )
 {
-	char *nt;
-	if ((lua_gettop(L) > 0) && (lua_isnumber(L,1)))
-		nt = ntime_pretty( (unsigned int) lua_tonumber(L,1) );
-	else
-		nt = ntime_pretty( ntime_get() );
-	lua_pushstring(L, nt);
-	free(nt);
-	return 1;
+   char *nt;
+   if ((lua_gettop(L) > 0) && (lua_isnumber(L,1)))
+      nt = ntime_pretty( (unsigned int) lua_tonumber(L,1) );
+   else
+      nt = ntime_pretty( ntime_get() );
+   lua_pushstring(L, nt);
+   free(nt);
+   return 1;
 }
-
 /**
  * @brief Converts stu to internal representation time.
  *
@@ -116,11 +115,11 @@ static int time_str( lua_State *L )
  */
 static int time_units( lua_State *L )
 {
-	if ((lua_gettop(L) > 0) && (lua_isnumber(L,1)))
-		lua_pushnumber( L, (unsigned int)lua_tonumber(L,1) * NTIME_UNIT_LENGTH );
-	else
-		lua_pushnumber( L, NTIME_UNIT_LENGTH );
-	return 1;
+   if ((lua_gettop(L) > 0) && (lua_isnumber(L,1)))
+      lua_pushnumber( L, (unsigned int)lua_tonumber(L,1) * NTIME_UNIT_LENGTH );
+   else
+      lua_pushnumber( L, NTIME_UNIT_LENGTH );
+   return 1;
 }
 
 
