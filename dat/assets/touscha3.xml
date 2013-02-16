@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<asset name="Touscha III">
+ <pos>
+  <x>-600.000000</x>
+  <y>-600.000000</y>
+ </pos>
+ <GFX>
+  <space>A04.png</space>
+  <exterior>lava.png</exterior>
+ </GFX>
+ <presence>
+  <faction>Touscha</faction>
+  <value>75.000000</value>
+  <range>2</range>
+ </presence>
+ <general>
+  <class>A</class>
+  <hide>0.250000</hide>
+  <services>
+   <land/>
+   <refuel/>
+  </services>
+  <description>A source of raw minerals for the Touscha.</description>
+  <bar>A bar. Nothing special.</bar>
+ </general>
+</asset>

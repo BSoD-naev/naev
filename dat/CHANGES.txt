@@ -1,0 +1,8 @@
+This git was forked from bobbens/naev on 27 Dec 2012.
+
+The stuff I've done so far is listed below. Dates and times are listed as follows: YYYY-MM-DD-HH-MM, for example, 2012-09-26-14-32 is Sept 26, 2012 at 2:32pm.
+
+2013-01-06-18-43: Added the Alvarron, Kilva, and Gregor systems, and modified Myad, Arcanis, and Ingot to provide jumps to them.
+2013-01-06-19-28: Added the Touscha system and the Keavix, Touscha III, and New Hesaya assets to it. Using independeent faction presence as placeholder.
+2013-01-06-20-42: Added the Undil and Antigone systems and modifiedthe Touscha, Aneel Azi, and Tormulex systems to provide jumps to them.
+2013-01-06-21-48: Added the Touscha to faction.xml, added placeholder fleets to fleet.xml, and created a spawn script based off the Goddard. Placeholders everywhere. Also changed the presence of Touscha to Touscha from independent.

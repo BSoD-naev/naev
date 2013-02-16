@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<asset name="Starpoint Shipyards">
+ <pos>
+  <x>-350.000000</x>
+  <y>-850.000000</y>
+ </pos>
+ <GFX>
+  <space>station-shipyard2.png</space>
+  <exterior>station04.png</exterior>
+ </GFX>
+ <presence>
+  <faction>Touscha</faction>
+  <value>150.000000</value>
+  <range>2</range>
+ </presence>
+ <general>
+  <class>0</class>
+  <population>6000</population>
+  <hide>0.750000</hide>
+  <services>
+   <land/>
+   <refuel/>
+   <bar/>
+   <commodity/>
+   <outfits/>
+   <shipyard/>
+  </services>
+  <commodities>
+   <commodity>Ore</commodity>
+   <commodity>Industrial Goods</commodity>
+  </commodities>
+  <description>This is where all of the Touscha ships are made and outfitted.</description>
+  <bar>Very utilitarian. Filled with off-duty workers.</bar>
+ </general>
+ <tech>
+  <item>Basic Outfits 2</item>
+  <item>Heavy Weapons 1</item>
+  <item>Laser 1</item>
+  <item>Laser 2</item>
+  <item>Laser 3</item>
+  <item>Ion 1</item>
+  <item>Ion 2</item>
+  <item>Ion 3</item>
+  <item>Touscha Ships</item>
+  <item>Light Civilian Combat Ships</item>
+  <item>Heavy Civilian Combat Ships</item>
+  <item>High Tech Upgrades 1</item>
+  <item>High Tech Upgrades 2</item>
+  <item>Missiles 2</item>
+  <item>Systems Elite</item>
+  <item>Engines Elite</item>
+  <item>Hulls Elite</item>
+ </tech>
+</asset>

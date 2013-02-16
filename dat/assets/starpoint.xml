@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<asset name="Starpoint">
+ <pos>
+  <x>-2938.557652</x>
+  <y>9505.793602</y>
+ </pos>
+ <GFX>
+  <space>M06.png</space>
+  <exterior>oceanic2.png</exterior>
+ </GFX>
+ <presence>
+  <faction>Touscha</faction>
+  <value>225.000000</value>
+  <range>2</range>
+ </presence>
+ <general>
+  <class>M</class>
+  <population>2530000000</population>
+  <hide>0.250000</hide>
+  <services>
+   <land/>
+   <refuel/>
+   <bar/>
+   <commodity/>
+   <outfits/>
+  </services>
+  <commodities>
+   <commodity>Food</commodity>
+   <commodity>Luxury Goods</commodity>
+   <commodity>Medicine</commodity>
+  </commodities>
+  <description>Starpoint is the homeworld of the Touscha. It is here where they established a base and grew their numbers after the Incident.</description>
+  <bar>The spaceport bar is packed with mercenaries and those looking to hire them.</bar>
+ </general>
+ <tech>
+  <item>Systems Medium</item>
+  <item>Hulls Low</item>
+  <item>Hulls Medium</item>
+  <item>Laser 1</item>
+  <item>Basic Outfits 1</item>
+  <item>Basic Outfits 2</item>
+  <item>Low Tech Upgrades</item>
+  <item>Missiles 1</item>
+  <item>Missiles 2</item>
+ </tech>
+</asset>

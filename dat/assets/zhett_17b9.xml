@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<asset name="Zhett 17B9">
+ <pos>
+  <x>-7486.171923</x>
+  <y>-1601.188983</y>
+ </pos>
+ <GFX>
+  <space>moon-P03.png</space>
+  <exterior>traderoom.png</exterior>
+ </GFX>
+ <general>
+  <class>A</class>
+  <population>0</population>
+  <hide>0.250000</hide>
+  <services/>
+ </general>
+</asset>
