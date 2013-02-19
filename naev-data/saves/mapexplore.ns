@@ -12,9 +12,9 @@
   <mapOverlay>0</mapOverlay>
   <time>
    <SCU>603</SCU>
-   <STP>4000</STP>
-   <STU>6295</STU>
-   <Remainder>148.899153</Remainder>
+   <STP>4004</STP>
+   <STU>7333</STU>
+   <Remainder>468.641898</Remainder>
   </time>
   <location>Starpoint Shipyards</location>
   <ship name="Vanguard" model="Touscha Vanguard">
@@ -268,24 +268,24 @@
  <missions/>
  <events/>
  <news>
-  <article title="We bring you the latest news in the galaxy." desc="" faction="Generic" date="50000000000005" date_to_rm="50000000000005" id="1354"/>
-  <article title="Welcome to the Dvaered News Centre. All that happens. In simple words. So you can understand." desc="" faction="Dvaered" date="50000000000005" date_to_rm="50000000000005" id="1325"/>
-  <article title="Welcome to the Empire News Centre." desc="Fresh news from around the Empire." faction="Empire" date="50000000000005" date_to_rm="50000000000005" id="1319"/>
-  <article title="Welcome to Goddard News Centre. We bring you the news from around the Empire." desc="" faction="Goddard" date="50000000000005" date_to_rm="50000000000005" id="1091"/>
-  <article title="Pirate News. News that matters." desc="Laughing at the Emperor." faction="Pirate" date="50000000000005" date_to_rm="50000000000005" id="372"/>
-  <article title="Sirius News Reel. Words of the Sirichana for all." desc="Stay faithful." faction="Sirius" date="50000000000005" date_to_rm="50000000000005" id="517"/>
-  <article title="News from the Frontier Alliance." desc="News you can trust." faction="Frontier" date="50000000000005" date_to_rm="50000000000005" id="522"/>
+  <article title="We bring you the latest news in the galaxy." desc="" faction="Generic" date="50000000000005" date_to_rm="50000000000005" id="1388"/>
   <article title="Welcome to Universal News Feed. All the headlines all the time." desc="" faction="Independent" date="50000000000005" date_to_rm="50000000000005" id="1003"/>
-  <article title="Imperial Council Opens Doors" desc="The supreme advisory body invited undergraduates from six top schools to sit in on a day's deliberations. Topics included biodiversity strategy." faction="Generic" date="0" date_to_rm="500000000000000" id="1358"/>
-  <article title="Amazing Survival Story" desc="An Xing Long was rescued after two days floating in space. &quot;I used meditation to slow my breathing,&quot; Xing Long told us. &quot;It was hard because I was scared.&quot;" faction="Generic" date="0" date_to_rm="500000000000000" id="1357"/>
-  <article title="The Case for Sex" desc="Though cloning rates continue to rise, Vlad Taneev believes we can still benefit from genetic recombination. &quot;Lady chance is more creative than we,&quot; says the famous gene splicer." faction="Generic" date="0" date_to_rm="500000000000000" id="1356"/>
-  <article title="Emperor's Aid Gets Hitched" desc="On Saturday, Imperial secretary Karil Lorenze married long time fiancee Rachid Baouda in the future palace gardens on Emperor's Fist. His Eminence the Bishop of Bao performed the ceremony." faction="Generic" date="0" date_to_rm="500000000000000" id="1355"/>
-  <article title="New Mace Rockets" desc="Dvaered Engineers are proud to present the new improved version of the Dvaered Mace rocket. &quot;We have proven the new rocket to be nearly twice as destructive as the previous versions,&quot; says Chief Dvaered Engineer Nordstrom." faction="Dvaered" date="0" date_to_rm="500000000000000" id="1330"/>
-  <article title="New Cat in the Imperial Family" desc="The Emperor's daughter was recently gifted a cat. Cat could be named &quot;Snuggles&quot; and seems to be all white." faction="Empire" date="0" date_to_rm="500000000000000" id="1324"/>
-  <article title="Goddard: Raising the Bar" desc="Many new scientists are being contracted by House Goddard to investigate possible improvements. This new strategy will increase the gap with the competing ship fabricators." faction="Goddard" date="0" date_to_rm="500000000000000" id="1096"/>
-  <article title="Emperor Weaker Than Ever" desc="Recent actions demonstrate the inefficiency and weakness of the Emperor. One of the last irrational decisions left Eridani without a defense fleet to protect the traders. It's a great time to be a pirate." faction="Pirate" date="0" date_to_rm="500000000000000" id="377"/>
-  <article title="New Ships for Skull and Bones" desc="The Skull and Bones was able to extract a few dozen high quality vessels from Caladan warehouses under the nose of the Empire. These ships will help keep production high and booming." faction="Pirate" date="0" date_to_rm="500000000000000" id="376"/>
+  <article title="News from the Frontier Alliance." desc="News you can trust." faction="Frontier" date="50000000000005" date_to_rm="50000000000005" id="522"/>
+  <article title="Sirius News Reel. Words of the Sirichana for all." desc="Stay faithful." faction="Sirius" date="50000000000005" date_to_rm="50000000000005" id="517"/>
+  <article title="Pirate News. News that matters." desc="Laughing at the Emperor." faction="Pirate" date="50000000000005" date_to_rm="50000000000005" id="372"/>
+  <article title="Welcome to Goddard News Centre. We bring you the news from around the Empire." desc="" faction="Goddard" date="50000000000005" date_to_rm="50000000000005" id="1091"/>
+  <article title="Welcome to the Empire News Centre." desc="Fresh news from around the Empire." faction="Empire" date="50000000000005" date_to_rm="50000000000005" id="1319"/>
+  <article title="Welcome to the Dvaered News Centre. All that happens. In simple words. So you can understand." desc="" faction="Dvaered" date="50000000000005" date_to_rm="50000000000005" id="1325"/>
+  <article title="Imperial Council Opens Doors" desc="The supreme advisory body invited undergraduates from six top schools to sit in on a day's deliberations. Topics included biodiversity strategy." faction="Generic" date="0" date_to_rm="500000000000000" id="1392"/>
+  <article title="Amazing Survival Story" desc="An Xing Long was rescued after two days floating in space. &quot;I used meditation to slow my breathing,&quot; Xing Long told us. &quot;It was hard because I was scared.&quot;" faction="Generic" date="0" date_to_rm="500000000000000" id="1391"/>
+  <article title="The Case for Sex" desc="Though cloning rates continue to rise, Vlad Taneev believes we can still benefit from genetic recombination. &quot;Lady chance is more creative than we,&quot; says the famous gene splicer." faction="Generic" date="0" date_to_rm="500000000000000" id="1390"/>
+  <article title="Emperor's Aid Gets Hitched" desc="On Saturday, Imperial secretary Karil Lorenze married long time fiancee Rachid Baouda in the future palace gardens on Emperor's Fist. His Eminence the Bishop of Bao performed the ceremony." faction="Generic" date="0" date_to_rm="500000000000000" id="1389"/>
   <article title="Words of Tranquility" desc="We welcome many new Touched who have recently begun ministering to the Shaira echelon after their long pilgrimage on Mutris. House Sirius is still a refugee for the orphans lost in this Universe." faction="Sirius" date="0" date_to_rm="500000000000000" id="521"/>
+  <article title="New Ships for Skull and Bones" desc="The Skull and Bones was able to extract a few dozen high quality vessels from Caladan warehouses under the nose of the Empire. These ships will help keep production high and booming." faction="Pirate" date="0" date_to_rm="500000000000000" id="376"/>
+  <article title="Emperor Weaker Than Ever" desc="Recent actions demonstrate the inefficiency and weakness of the Emperor. One of the last irrational decisions left Eridani without a defense fleet to protect the traders. It's a great time to be a pirate." faction="Pirate" date="0" date_to_rm="500000000000000" id="377"/>
+  <article title="Goddard: Raising the Bar" desc="Many new scientists are being contracted by House Goddard to investigate possible improvements. This new strategy will increase the gap with the competing ship fabricators." faction="Goddard" date="0" date_to_rm="500000000000000" id="1096"/>
+  <article title="New Cat in the Imperial Family" desc="The Emperor's daughter was recently gifted a cat. Cat could be named &quot;Snuggles&quot; and seems to be all white." faction="Empire" date="0" date_to_rm="500000000000000" id="1324"/>
+  <article title="New Mace Rockets" desc="Dvaered Engineers are proud to present the new improved version of the Dvaered Mace rocket. &quot;We have proven the new rocket to be nearly twice as destructive as the previous versions,&quot; says Chief Dvaered Engineer Nordstrom." faction="Dvaered" date="0" date_to_rm="500000000000000" id="1330"/>
  </news>
  <vars>
   <var name="_fcap_pirate" type="num">30.000000</var>
@@ -349,6 +349,15 @@
  </factions>
  <hooks/>
  <space>
+  <known sys="Ingot">
+   <planet>Ingot I</planet>
+   <planet>Ulios</planet>
+   <jump>Toaxis</jump>
+  </known>
+  <known sys="Toaxis">
+   <jump>Ingot</jump>
+   <jump>Raelid</jump>
+  </known>
   <known sys="Aneel Azi">
    <planet>Edergast</planet>
    <jump>Antigone</jump>
@@ -367,11 +376,6 @@
    <planet>Utsuwa</planet>
    <jump>Verex</jump>
    <jump>Zied</jump>
-  </known>
-  <known sys="Ingot">
-   <planet>Ingot I</planet>
-   <planet>Ulios</planet>
-   <jump>Toaxis</jump>
   </known>
   <known sys="Navajo">
    <planet>Rin</planet>
@@ -1044,10 +1048,6 @@
    <jump>Dendria</jump>
    <jump>Elixir</jump>
    <jump>New Haven</jump>
-  </known>
-  <known sys="Toaxis">
-   <jump>Raelid</jump>
-   <jump>Ingot</jump>
   </known>
   <known sys="Torg">
    <planet>Godtra</planet>
