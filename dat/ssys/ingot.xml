@@ -16,5 +16,10 @@
   <asset>Virtual Dvaered Unpresence</asset>
   <asset>Virtual Pirate Unpresence</asset>
  </assets>
- <jumps/>
+ <jumps>
+  <jump target="Toaxis">
+   <autopos/>
+   <hide>1.250000</hide>
+  </jump>
+ </jumps>
 </ssys>
