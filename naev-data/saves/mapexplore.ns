@@ -256,7 +256,7 @@
  <missions/>
  <events/>
  <news>
-  <article title="We bring you the latest news in the galaxy." desc="" faction="Generic" date="50000000000005" date_to_rm="50000000000005" id="1623"/>
+  <article title="We bring you the latest news in the galaxy." desc="" faction="Generic" date="50000000000005" date_to_rm="50000000000005" id="1643"/>
   <article title="Welcome to the Dvaered News Centre. All that happens. In simple words. So you can understand." desc="" faction="Dvaered" date="50000000000005" date_to_rm="50000000000005" id="1325"/>
   <article title="Welcome to the Empire News Centre." desc="Fresh news from around the Empire." faction="Empire" date="50000000000005" date_to_rm="50000000000005" id="1319"/>
   <article title="Welcome to Goddard News Centre. We bring you the news from around the Empire." desc="" faction="Goddard" date="50000000000005" date_to_rm="50000000000005" id="1091"/>
@@ -264,10 +264,10 @@
   <article title="Sirius News Reel. Words of the Sirichana for all." desc="Stay faithful." faction="Sirius" date="50000000000005" date_to_rm="50000000000005" id="517"/>
   <article title="News from the Frontier Alliance." desc="News you can trust." faction="Frontier" date="50000000000005" date_to_rm="50000000000005" id="522"/>
   <article title="Welcome to Universal News Feed. All the headlines all the time." desc="" faction="Independent" date="50000000000005" date_to_rm="50000000000005" id="1003"/>
-  <article title="FLF Responsible for Piracy" desc="Law enforcement expert Paet Dohmer's upcoming essay describes the group as &quot;more criminal gang than independence movement&quot;, according to his publicist." faction="Generic" date="0" date_to_rm="500000000000000" id="1627"/>
-  <article title="Imperial Oversight Scandal" desc="Sources close to the Imperial Chancellor say they see the failure at the Department of Oversight, whose inspectors overlooked serious failings in other supervisory bodies, as a serious oversight." faction="Generic" date="0" date_to_rm="500000000000000" id="1626"/>
-  <article title="Everyone Loves a SuperChimp" desc="For decades used only as menial labourers, now SuperChimps are being widely adopted as domestic companions. Enhanced primates make an affectionate, intelligent pet, or low-cost servant." faction="Generic" date="0" date_to_rm="500000000000000" id="1625"/>
-  <article title="Hyperspace is Hot" desc="Researchers have found traces of matter moving very quickly in hyperspace. They are not yet sure whether the minute particles originated there, or are human contaminants." faction="Generic" date="0" date_to_rm="500000000000000" id="1624"/>
+  <article title="FLF Responsible for Piracy" desc="Law enforcement expert Paet Dohmer's upcoming essay describes the group as &quot;more criminal gang than independence movement&quot;, according to his publicist." faction="Generic" date="0" date_to_rm="500000000000000" id="1647"/>
+  <article title="Imperial Oversight Scandal" desc="Sources close to the Imperial Chancellor say they see the failure at the Department of Oversight, whose inspectors overlooked serious failings in other supervisory bodies, as a serious oversight." faction="Generic" date="0" date_to_rm="500000000000000" id="1646"/>
+  <article title="Everyone Loves a SuperChimp" desc="For decades used only as menial labourers, now SuperChimps are being widely adopted as domestic companions. Enhanced primates make an affectionate, intelligent pet, or low-cost servant." faction="Generic" date="0" date_to_rm="500000000000000" id="1645"/>
+  <article title="Hyperspace is Hot" desc="Researchers have found traces of matter moving very quickly in hyperspace. They are not yet sure whether the minute particles originated there, or are human contaminants." faction="Generic" date="0" date_to_rm="500000000000000" id="1644"/>
   <article title="New Mace Rockets" desc="Dvaered Engineers are proud to present the new improved version of the Dvaered Mace rocket. &quot;We have proven the new rocket to be nearly twice as destructive as the previous versions,&quot; says Chief Dvaered Engineer Nordstrom." faction="Dvaered" date="0" date_to_rm="500000000000000" id="1330"/>
   <article title="New Cat in the Imperial Family" desc="The Emperor's daughter was recently gifted a cat. Cat could be named &quot;Snuggles&quot; and seems to be all white." faction="Empire" date="0" date_to_rm="500000000000000" id="1324"/>
   <article title="Goddard: Raising the Bar" desc="Many new scientists are being contracted by House Goddard to investigate possible improvements. This new strategy will increase the gap with the competing ship fabricators." faction="Goddard" date="0" date_to_rm="500000000000000" id="1096"/>
@@ -337,6 +337,27 @@
  </factions>
  <hooks/>
  <space>
+  <known sys="Alvarron">
+   <jump>Ingot</jump>
+   <jump>Kilva</jump>
+  </known>
+  <known sys="Arcanis">
+   <jump>Gregor</jump>
+   <jump>Raelid</jump>
+   <jump>Sigur</jump>
+   <jump>Zylex</jump>
+  </known>
+  <known sys="Kilva">
+   <jump>Alvarron</jump>
+   <jump>Gregor</jump>
+   <jump>Myad</jump>
+   <jump>Starpoint</jump>
+  </known>
+  <known sys="Ingot">
+   <planet>Ingot I</planet>
+   <planet>Ulios</planet>
+   <jump>Toaxis</jump>
+  </known>
   <known sys="Goddard">
    <planet>Geron</planet>
    <planet>Goddard III</planet>
@@ -348,16 +369,6 @@
    <jump>Delta Pavonis</jump>
    <jump>Ogat</jump>
   </known>
-  <known sys="Alvarron">
-   <jump>Ingot</jump>
-   <jump>Kilva</jump>
-  </known>
-  <known sys="Kilva">
-   <jump>Alvarron</jump>
-   <jump>Gregor</jump>
-   <jump>Myad</jump>
-   <jump>Starpoint</jump>
-  </known>
   <known sys="Starpoint">
    <planet>New Hesaya</planet>
    <planet>Starpoint</planet>
@@ -366,11 +377,6 @@
    <jump>Antigone</jump>
    <jump>Kilva</jump>
    <jump>Undil</jump>
-  </known>
-  <known sys="Ingot">
-   <planet>Ingot I</planet>
-   <planet>Ulios</planet>
-   <jump>Toaxis</jump>
   </known>
   <known sys="Toaxis">
    <jump>Ingot</jump>
@@ -1424,12 +1430,6 @@
    <jump>Oriantis</jump>
    <jump>Polaris</jump>
    <jump>Zerantix</jump>
-  </known>
-  <known sys="Arcanis">
-   <jump>Gregor</jump>
-   <jump>Raelid</jump>
-   <jump>Sigur</jump>
-   <jump>Zylex</jump>
   </known>
   <known sys="Arcturus">
    <planet>Antica</planet>

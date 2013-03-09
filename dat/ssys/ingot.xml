@@ -17,6 +17,10 @@
   <asset>Virtual Pirate Unpresence</asset>
  </assets>
  <jumps>
+  <jump target="Alvarron">
+   <autopos/>
+   <hide>1.250000</hide>
+  </jump>
   <jump target="Toaxis">
    <autopos/>
    <hide>1.250000</hide>
