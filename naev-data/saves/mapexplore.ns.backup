@@ -6,32 +6,35 @@
  </version>
  <diffs/>
  <player name="mapexplore">
-  <rating>272.000000</rating>
-  <credits>99999977946710</credits>
+  <rating>286.000000</rating>
+  <credits>99999976511310</credits>
   <guiOverride>0</guiOverride>
   <mapOverlay>0</mapOverlay>
   <time>
    <SCU>603</SCU>
-   <STP>4004</STP>
-   <STU>7333</STU>
-   <Remainder>468.641898</Remainder>
+   <STP>4027</STP>
+   <STU>5724</STU>
+   <Remainder>95.090387</Remainder>
   </time>
-  <location>Starpoint Shipyards</location>
-  <ship name="Vanguard" model="Touscha Vanguard">
-   <fuel>800.000000</fuel>
+  <location>Starpoint</location>
+  <ship name="Peregrine" model="Touscha Peregrine">
+   <fuel>400.000000</fuel>
    <outfits_structure>
-    <outfit slot="0">Tricon Centaur Mk8 Engine</outfit>
-    <outfit slot="1">Schafer &amp; Kane Medium Solar Plating</outfit>
+    <outfit slot="0">Tricon Naga Mk12 Engine</outfit>
+    <outfit slot="1">Schafer &amp; Kane Light Stealth Plating</outfit>
+    <outfit slot="2">Improved Stabilizer</outfit>
+    <outfit slot="3">Improved Stabilizer</outfit>
    </outfits_structure>
    <outfits_utility>
-    <outfit slot="0">Milspec Orion 5502 Core System</outfit>
-    <outfit slot="1">Medium Shield Booster</outfit>
+    <outfit slot="0">Milspec Orion 3702 Core System</outfit>
+    <outfit slot="1">Hellburner</outfit>
+    <outfit slot="2">Small Shield Booster</outfit>
    </outfits_utility>
    <outfits_weapon>
-    <outfit slot="0">Razor Turret MK3</outfit>
-    <outfit slot="1">Razor Turret MK3</outfit>
-    <outfit slot="2">Razor Turret MK3</outfit>
-    <outfit slot="3">Razor Turret MK3</outfit>
+    <outfit slot="0">Razor MK3</outfit>
+    <outfit slot="1">Razor MK3</outfit>
+    <outfit slot="2">Razor MK3</outfit>
+    <outfit slot="3">Razor MK3</outfit>
    </outfits_weapon>
    <commodities/>
    <weaponsets autoweap="1" active_set="0">
@@ -48,62 +51,25 @@
    </weaponsets>
   </ship>
   <ships>
-   <ship name="Javelin" model="Touscha Javelin">
+   <ship name="Vanguard" model="Touscha Vanguard">
     <location>Starpoint Shipyards</location>
-    <fuel>400.000000</fuel>
+    <fuel>800.000000</fuel>
     <outfits_structure>
-     <outfit slot="0">Tricon Naga Mk12 Engine</outfit>
-     <outfit slot="1">Schafer &amp; Kane Light Stealth Plating</outfit>
-     <outfit slot="2">Improved Stabilizer</outfit>
-     <outfit slot="3">Improved Stabilizer</outfit>
+     <outfit slot="0">Tricon Centaur Mk8 Engine</outfit>
+     <outfit slot="1">Schafer &amp; Kane Medium Solar Plating</outfit>
     </outfits_structure>
     <outfits_utility>
-     <outfit slot="0">Milspec Orion 3702 Core System</outfit>
-     <outfit slot="1">Generic Afterburner</outfit>
-     <outfit slot="2">Small Shield Booster</outfit>
+     <outfit slot="0">Milspec Orion 5502 Core System</outfit>
+     <outfit slot="1">Medium Shield Booster</outfit>
     </outfits_utility>
     <outfits_weapon>
-     <outfit slot="0">Razor MK3</outfit>
-     <outfit slot="1">Razor MK3</outfit>
-     <outfit slot="2">Razor MK3</outfit>
-     <outfit slot="3">Razor MK3</outfit>
+     <outfit slot="0">Razor Turret MK3</outfit>
+     <outfit slot="1">Razor Turret MK3</outfit>
+     <outfit slot="2">Razor Turret MK3</outfit>
+     <outfit slot="3">Razor Turret MK3</outfit>
     </outfits_weapon>
     <commodities/>
     <weaponsets autoweap="1" active_set="0">
-     <weaponset inrange="0" id="0"/>
-     <weaponset inrange="0" id="1"/>
-     <weaponset inrange="0" id="2"/>
-     <weaponset inrange="0" id="3"/>
-     <weaponset inrange="0" id="4"/>
-     <weaponset inrange="0" id="5"/>
-     <weaponset inrange="0" id="6"/>
-     <weaponset inrange="0" id="7"/>
-     <weaponset inrange="0" id="8"/>
-     <weaponset inrange="0" id="9"/>
-    </weaponsets>
-   </ship>
-   <ship name="Starbeam II" model="Sirius Fidelity">
-    <location>Starpoint Shipyards</location>
-    <fuel>0.000000</fuel>
-    <outfits_structure>
-     <outfit slot="0">Tricon Naga Mk12 Engine</outfit>
-     <outfit slot="1">Schafer &amp; Kane Light Combat Plating</outfit>
-     <outfit slot="2">Improved Stabilizer</outfit>
-     <outfit slot="3">Improved Stabilizer</outfit>
-    </outfits_structure>
-    <outfits_utility>
-     <outfit slot="0">Milspec Orion 3702 Core System</outfit>
-     <outfit slot="1">Hellburner</outfit>
-     <outfit slot="2">Small Shield Booster</outfit>
-    </outfits_utility>
-    <outfits_weapon>
-     <outfit slot="0">Razor MK3</outfit>
-     <outfit slot="1">Razor MK3</outfit>
-     <outfit slot="2">Razor MK3</outfit>
-     <outfit slot="3">Razor MK3</outfit>
-    </outfits_weapon>
-    <commodities/>
-    <weaponsets autoweap="1" active_set="1">
      <weaponset inrange="0" id="0"/>
      <weaponset inrange="0" id="1"/>
      <weaponset inrange="0" id="2"/>
@@ -184,6 +150,26 @@
      <weaponset inrange="0" id="9" name="Unused" type="2"/>
     </weaponsets>
    </ship>
+   <ship name="Starbeam II" model="Sirius Fidelity">
+    <location>Starpoint Shipyards</location>
+    <fuel>0.000000</fuel>
+    <outfits_structure/>
+    <outfits_utility/>
+    <outfits_weapon/>
+    <commodities/>
+    <weaponsets autoweap="1" active_set="1">
+     <weaponset inrange="0" id="0"/>
+     <weaponset inrange="0" id="1"/>
+     <weaponset inrange="0" id="2"/>
+     <weaponset inrange="0" id="3"/>
+     <weaponset inrange="0" id="4"/>
+     <weaponset inrange="0" id="5"/>
+     <weaponset inrange="0" id="6"/>
+     <weaponset inrange="0" id="7"/>
+     <weaponset inrange="0" id="8"/>
+     <weaponset inrange="0" id="9"/>
+    </weaponsets>
+   </ship>
    <ship name="Opportunity" model="Llama">
     <location>Em 1</location>
     <fuel>300.000000</fuel>
@@ -218,7 +204,7 @@
   </guis>
   <outfits>
    <outfit quantity="5">Ripper Cannon</outfit>
-   <outfit quantity="1">Razor MK3</outfit>
+   <outfit quantity="6">Razor MK3</outfit>
    <outfit quantity="4">Laser Cannon MK2</outfit>
    <outfit quantity="2">Turreted Gauss Gun</outfit>
    <outfit quantity="1">Unicorp Caesar IV Launcher</outfit>
@@ -231,19 +217,21 @@
    <outfit quantity="1">Basic Medium Systems</outfit>
    <outfit quantity="1">Unicorp RX-14 Core System</outfit>
    <outfit quantity="1">Unicorp PT-200 Core System</outfit>
-   <outfit quantity="5">Basic Small Systems</outfit>
+   <outfit quantity="6">Basic Small Systems</outfit>
    <outfit quantity="1">Biometal Armour</outfit>
    <outfit quantity="1">Tricon Centaur Mk7-Ra Engine</outfit>
    <outfit quantity="1">Manufacturer Medium Engine</outfit>
    <outfit quantity="1">Unmodified Medium Hull</outfit>
+   <outfit quantity="1">Tricon Naga Mk12 Engine</outfit>
+   <outfit quantity="1">Schafer &amp; Kane Light Combat Plating</outfit>
    <outfit quantity="1">Unicorp C-2 Light Plating</outfit>
    <outfit quantity="1">Unicorp KRD-B12 Engine</outfit>
-   <outfit quantity="5">Manufacturer Small Engine</outfit>
-   <outfit quantity="5">Unmodified Small Hull</outfit>
+   <outfit quantity="6">Manufacturer Small Engine</outfit>
+   <outfit quantity="6">Unmodified Small Hull</outfit>
    <outfit quantity="2">Improved Stabilizer</outfit>
    <outfit quantity="8">Steering Thrusters</outfit>
    <outfit quantity="150">Caesar IV Torpedo</outfit>
-   <outfit quantity="287">Medusa Missile</outfit>
+   <outfit quantity="253">Medusa Missile</outfit>
    <outfit quantity="292">Headhunter Missile</outfit>
    <outfit quantity="400">Fury Missile</outfit>
    <outfit quantity="800">Mace Rocket</outfit>
@@ -268,7 +256,7 @@
  <missions/>
  <events/>
  <news>
-  <article title="We bring you the latest news in the galaxy." desc="" faction="Generic" date="50000000000005" date_to_rm="50000000000005" id="1393"/>
+  <article title="We bring you the latest news in the galaxy." desc="" faction="Generic" date="50000000000005" date_to_rm="50000000000005" id="1609"/>
   <article title="Welcome to the Dvaered News Centre. All that happens. In simple words. So you can understand." desc="" faction="Dvaered" date="50000000000005" date_to_rm="50000000000005" id="1325"/>
   <article title="Welcome to the Empire News Centre." desc="Fresh news from around the Empire." faction="Empire" date="50000000000005" date_to_rm="50000000000005" id="1319"/>
   <article title="Welcome to Goddard News Centre. We bring you the news from around the Empire." desc="" faction="Goddard" date="50000000000005" date_to_rm="50000000000005" id="1091"/>
@@ -276,10 +264,9 @@
   <article title="Sirius News Reel. Words of the Sirichana for all." desc="Stay faithful." faction="Sirius" date="50000000000005" date_to_rm="50000000000005" id="517"/>
   <article title="News from the Frontier Alliance." desc="News you can trust." faction="Frontier" date="50000000000005" date_to_rm="50000000000005" id="522"/>
   <article title="Welcome to Universal News Feed. All the headlines all the time." desc="" faction="Independent" date="50000000000005" date_to_rm="50000000000005" id="1003"/>
-  <article title="FLF Responsible for Piracy" desc="Law enforcement expert Paet Dohmer's upcoming essay describes the group as &quot;more criminal gang than independence movement&quot;, according to his publicist." faction="Generic" date="0" date_to_rm="500000000000000" id="1397"/>
-  <article title="Imperial Oversight Scandal" desc="Sources close to the Imperial Chancellor say they see the failure at the Department of Oversight, whose inspectors overlooked serious failings in other supervisory bodies, as a serious oversight." faction="Generic" date="0" date_to_rm="500000000000000" id="1396"/>
-  <article title="Everyone Loves a SuperChimp" desc="For decades used only as menial labourers, now SuperChimps are being widely adopted as domestic companions. Enhanced primates make an affectionate, intelligent pet, or low-cost servant." faction="Generic" date="0" date_to_rm="500000000000000" id="1395"/>
-  <article title="Hyperspace is Hot" desc="Researchers have found traces of matter moving very quickly in hyperspace. They are not yet sure whether the minute particles originated there, or are human contaminants." faction="Generic" date="0" date_to_rm="500000000000000" id="1394"/>
+  <article title="Sand Monster Caught On Tape" desc="Local residents claim footage from an Arrakis security camera shows elusive beast walking through a desert storm. Exobiologists suspect a hoax." faction="Generic" date="0" date_to_rm="500000000000000" id="1612"/>
+  <article title="Techs Probe for Sol" desc="Technicians at the Omega Station recently returned from a new effort to understand the Sol Incident. They expect the first data to arrive in two months' time." faction="Generic" date="0" date_to_rm="500000000000000" id="1611"/>
+  <article title="Bees Introduced to Emperor's Fist" desc="As they prepare the gardens of the future Imperial compound, entomologists have established the first colony of the Earth insects on the planet formerly known as G Scorpeii 5." faction="Generic" date="0" date_to_rm="500000000000000" id="1610"/>
   <article title="New Mace Rockets" desc="Dvaered Engineers are proud to present the new improved version of the Dvaered Mace rocket. &quot;We have proven the new rocket to be nearly twice as destructive as the previous versions,&quot; says Chief Dvaered Engineer Nordstrom." faction="Dvaered" date="0" date_to_rm="500000000000000" id="1330"/>
   <article title="New Cat in the Imperial Family" desc="The Emperor's daughter was recently gifted a cat. Cat could be named &quot;Snuggles&quot; and seems to be all white." faction="Empire" date="0" date_to_rm="500000000000000" id="1324"/>
   <article title="Goddard: Raising the Bar" desc="Many new scientists are being contracted by House Goddard to investigate possible improvements. This new strategy will increase the gap with the competing ship fabricators." faction="Goddard" date="0" date_to_rm="500000000000000" id="1096"/>
@@ -349,6 +336,36 @@
  </factions>
  <hooks/>
  <space>
+  <known sys="Goddard">
+   <planet>Geron</planet>
+   <planet>Goddard III</planet>
+   <planet>Goddard IV</planet>
+   <planet>Imk</planet>
+   <planet>Manuel Station</planet>
+   <planet>Zhiru</planet>
+   <jump>Arcturus</jump>
+   <jump>Delta Pavonis</jump>
+   <jump>Ogat</jump>
+  </known>
+  <known sys="Alvarron">
+   <jump>Ingot</jump>
+   <jump>Kilva</jump>
+  </known>
+  <known sys="Kilva">
+   <jump>Alvarron</jump>
+   <jump>Gregor</jump>
+   <jump>Myad</jump>
+   <jump>Starpoint</jump>
+  </known>
+  <known sys="Starpoint">
+   <planet>New Hesaya</planet>
+   <planet>Starpoint</planet>
+   <planet>Starpoint Shipyards</planet>
+   <planet>Touscha III</planet>
+   <jump>Antigone</jump>
+   <jump>Kilva</jump>
+   <jump>Undil</jump>
+  </known>
   <known sys="Ingot">
    <planet>Ingot I</planet>
    <planet>Ulios</planet>
@@ -908,15 +925,6 @@
    <planet>Tanulwa</planet>
    <jump>Treacle</jump>
   </known>
-  <known sys="Starpoint">
-   <planet>New Hesaya</planet>
-   <planet>Starpoint</planet>
-   <planet>Starpoint Shipyards</planet>
-   <planet>Touscha III</planet>
-   <jump>Antigone</jump>
-   <jump>Kilva</jump>
-   <jump>Undil</jump>
-  </known>
   <known sys="Sten">
    <jump>Atlantis</jump>
    <jump>Rei</jump>
@@ -1342,10 +1350,6 @@
    <jump>Delta Pavonis</jump>
    <jump>Eridani</jump>
    <jump>Sikh</jump>
-  </known>
-  <known sys="Alvarron">
-   <jump>Ingot</jump>
-   <jump>Kilva</jump>
   </known>
   <known sys="Amaroq">
    <planet>Amaroq I</planet>
@@ -2087,17 +2091,6 @@
    <jump>Awowa</jump>
    <jump>Verex</jump>
   </known>
-  <known sys="Goddard">
-   <planet>Geron</planet>
-   <planet>Goddard III</planet>
-   <planet>Goddard IV</planet>
-   <planet>Imk</planet>
-   <planet>Manuel Station</planet>
-   <planet>Zhiru</planet>
-   <jump>Arcturus</jump>
-   <jump>Delta Pavonis</jump>
-   <jump>Ogat</jump>
-  </known>
   <known sys="Gold">
    <jump>Fried</jump>
    <jump>Sheffield</jump>
@@ -2320,12 +2313,6 @@
   <known sys="Khaas">
    <jump>Diadem</jump>
    <jump>Hatter</jump>
-  </known>
-  <known sys="Kilva">
-   <jump>Alvarron</jump>
-   <jump>Gregor</jump>
-   <jump>Myad</jump>
-   <jump>Starpoint</jump>
   </known>
   <known sys="Kiwi">
    <planet>Forbes Station</planet>

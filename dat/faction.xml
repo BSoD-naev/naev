@@ -113,6 +113,7 @@
   <enemies>
    <enemy>Pirate</enemy>
    <enemy>Collective</enemy>
+   <enemy>Touscha</enemy>
   </enemies>
  </faction>
  <faction name="Soromid">
@@ -138,6 +139,7 @@
   <enemies>
    <enemy>Empire</enemy>
    <enemy>Pirate</enemy>
+   <enemy>Touscha</enemy>
   </enemies>
  </faction>
  <faction name="FLF">
@@ -225,6 +227,7 @@
   <allies />
   <enemies>
    <enemy>Empire</enemy>
+   <enemy>Collective</enemy>
   </enemies>
  </faction>
  <faction name="Mercenary">

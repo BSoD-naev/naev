@@ -7,11 +7,11 @@
    <pilot name="Touscha Kestrel" ship="Kestrel"></pilot>
   </pilots>
  </fleet>
- <fleet name="Touscha Javelin">
+ <fleet name="Touscha Peregrine">
   <ai>touscha</ai>
   <faction>Touscha</faction>
   <pilots>
-   <pilot name="Touscha Javelin" ship="Touscha Javelin"></pilot>
+   <pilot name="Touscha Peregrine" ship="Touscha Peregrine"></pilot>
   </pilots>
  </fleet>
  <fleet name="Touscha Vanguard">

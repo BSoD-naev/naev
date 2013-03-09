@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ship name="Touscha Javelin">
- <GFX>javelin_touscha</GFX>
+<ship name="Touscha Peregrine">
+ <base_type>peregrine</base_type>
+ <GFX>peregrine_touscha</GFX>
  <GUI>slim</GUI>
  <sound>engine</sound>
  <class>Fighter</class>
  <price>700000</price>
  <license>Light Combat Vessel License</license>
  <fabricator>Starpoint Manufacturing</fabricator>
- <description>The Touscha Javelin is a fighter that has a reputation of its own. Fast and armed, it excels at taking out other fighters.</description>
+ <description>The Touscha Peregrine is a fighter that has a reputation of its own. Fast and armed, it excels at taking out other fighters.</description>
  <health>
   <absorb>8</absorb>
   <armour>50</armour>

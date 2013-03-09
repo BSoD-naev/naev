@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ship name="Touscha Vanguard">
- <base_type/>
+ <base_type>vanguard</base_type>
  <GFX>vanguard</GFX>
  <GUI>slim</GUI>
  <sound>engine</sound>

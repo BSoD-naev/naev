@@ -356,6 +356,7 @@
   <avail>
     <chance>17</chance>
     <location>Bar</location>
+    <cond>planet.faction(planet.cur())~=faction.get("Touscha")</cond>
   </avail>
  </mission>
  <mission name="The Space Family">
@@ -552,7 +553,7 @@
                 end
             end
             return count &gt; 1
-        end)()</cond>
+        end)() and planet.faction(planet.cur())~=faction.get("Touscha")</cond>
   </avail>
  </mission>
  <mission name="The macho teenager">
@@ -585,7 +586,7 @@
   <avail>
    <chance>30</chance>
    <location>Bar</location>
-   <cond>planet.cur():faction() ~= faction.get("Sirius") -- Note: additional conditionals present in mission script!</cond>
+   <cond>planet.faction(planet.cur())~=faction.get("Touscha") and planet.cur():faction() ~= faction.get("Sirius") -- Note: additional conditionals present in mission script!</cond>
   </avail>
  </mission>
  <mission name="Empire Patrol Bounty">
@@ -628,6 +629,7 @@
   <avail>
    <chance>3</chance>
    <location>Bar</location>
+   <cond>planet.faction(planet.cur())~=faction.get("Touscha")</cond>
   </avail>
  </mission>
  <mission name="Drinking Aristocrat">
@@ -638,6 +640,7 @@
   <avail>
    <chance>5</chance>
    <location>Bar</location>
+   <cond>planet.faction(planet.cur())~=faction.get("Touscha")</cond>
   </avail>
  </mission>
  <mission name="Sirius Pilgrimage Transport">

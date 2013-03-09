@@ -2,7 +2,7 @@
 include("dat/factions/equip/generic.lua")
 
 --[[
--- @brief Does empire pilot equipping
+-- @brief Does touscha pilot equipping
 --
 --    @param p Pilot to equip
 --]]
@@ -12,7 +12,7 @@ function equip( p )
 
    -- Split by type
    if shiptype == "military" then
-      equip_empireMilitary( p, shipsize )
+      equip_touschaMilitary( p, shipsize )
    else
       equip_generic( p )
    end
@@ -20,28 +20,28 @@ end
 
 
 -- CANNONS
-function equip_forwardEmpLow ()
+function equip_forwardTsLow ()
    return { "Laser Cannon MK2", "Laser Cannon MK3" }
 end
-function equip_forwardEmpMed ()
-   return { "Laser Cannon MK3", "Ripper Cannon", "Heavy Ripper Cannon" }
+function equip_forwardTsMed ()
+   return { "Laser Cannon MK3" }
 end
 -- TURRETS
-function equip_turretEmpLow ()
+function equip_turretTsLow ()
    return { "Laser Turret MK2" }
 end
-function equip_turretEmpMed ()
+function equip_turretTsMed ()
    return { "Laser Turret MK2", "Laser Turret MK3" }
 end
-function equip_turretEmpHig ()
+function equip_turretTsHig ()
    return { "Heavy Laser", "Turbolaser" }
 end
 -- RANGED
-function equip_rangedEmp ()
+function equip_secondaryTs1 ()
    return { "Unicorp Headhunter Launcher" }
 end
-function equip_secondaryEmp ()
-   return { "Unicorp Headhunter Launcher" }
+function equip_secondaryTs2 ()
+   return { "Unicorp Fury Launcher" }
 end
 
 
@@ -49,7 +49,7 @@ end
 --[[
 -- @brief Equips a empire military type ship.
 --]]
-function equip_empireMilitary( p, shipsize )
+function equip_touschaMilitary( p, shipsize )
    local medium, low
    local use_primary, use_secondary, use_medium, use_low
    local use_forward, use_turrets, use_medturrets
@@ -79,8 +79,8 @@ function equip_empireMilitary( p, shipsize )
          equip_cores(p, "Tricon Naga Mk9 Engine", "Milspec Orion 3701 Core System", "Schafer & Kane Light Stealth Plating")
          use_primary    = nhigh-1
          use_secondary  = 1
-         addWeapons( equip_forwardEmpMed(), use_primary )
-         addWeapons( equip_secondaryEmp(), use_secondary )
+         addWeapons( equip_forwardTsMed(), use_primary )
+         addWeapons( equip_secondaryTs2(), use_secondary )
          medium         = equip_mediumLow()
          low            = equip_lowLow()
 
@@ -90,8 +90,8 @@ function equip_empireMilitary( p, shipsize )
          equip_cores(p, "Tricon Naga Mk9 Engine", "Milspec Orion 3701 Core System", "Schafer & Kane Light Combat Plating")
          use_primary    = rnd.rnd(1,2)
          use_secondary  = nhigh - use_primary
-         addWeapons( equip_forwardEmpLow(), use_primary )
-         addWeapons( equip_rangedEmp(), use_secondary )
+         addWeapons( equip_forwardTsLow(), use_primary )
+         addWeapons( equip_secondaryTs1(), use_secondary )
          medium         = equip_mediumLow()
          low            = equip_lowLow()
 
@@ -103,8 +103,10 @@ function equip_empireMilitary( p, shipsize )
       -- Corvette
       if class == "Corvette" then
          equip_cores(p, "Tricon Centaur Mk7 Engine", "Milspec Orion 5501 Core System", "Schafer & Kane Medium Solar Plating")
-         use_turret  = 4
-         addWeapons( equip_turretEmpMed(), use_turret )
+         use_turret  = nhigh-1
+         use_secondary = 1
+         addWeapons( equip_turretTsMed(), use_turret )
+	   addWeapons( equip_secondaryTs1(), use_secondary )
          medium         = equip_mediumMed()
          low            = equip_lowMed()
 
@@ -116,9 +118,9 @@ function equip_empireMilitary( p, shipsize )
          use_secondary  = rnd.rnd(1,2)
          use_turrets    = nhigh - use_secondary - rnd.rnd(1,2)
          use_forward    = nhigh - use_secondary - use_turrets
-         addWeapons( equip_secondaryEmp(), use_secondary )
-         addWeapons( equip_turretEmpMed(), use_turrets )
-         addWeapons( equip_forwardEmpMed(), use_forward )
+         addWeapons( equip_secondaryTs(), use_secondary )
+         addWeapons( equip_turretTsMed(), use_turrets )
+         addWeapons( equip_forwardTsMed(), use_forward )
          medium         = equip_mediumMed()
          low            = equip_lowMed()
 
@@ -131,12 +133,12 @@ function equip_empireMilitary( p, shipsize )
       if rnd.rnd() > 0.4 then -- Anti-fighter variant.
          use_turrets    = nhigh - use_secondary - rnd.rnd(2,3)
          use_medturrets = nhigh - use_secondary - use_turrets
-         addWeapons( equip_turretEmpMed(), use_medturrets )
+         addWeapons( equip_turretTsMed(), use_medturrets )
       else -- Anti-capital variant.
          use_turrets    = nhigh - use_secondary
       end
-      addWeapons( equip_turretEmpHig(), use_turrets )
-      addWeapons( equip_secondaryEmp(), use_secondary )
+      addWeapons( equip_turretTsHig(), use_turrets )
+      addWeapons( equip_secondaryTs2(), use_secondary )
       medium         = equip_mediumHig()
       low            = equip_lowHig()
 

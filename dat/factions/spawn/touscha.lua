@@ -1,24 +1,22 @@
 include("dat/factions/spawn/common.lua")
 
 
--- @brief Spawns a capship with escorts.
-function spawn_capship ()
+-- @brief Spawns the ships.
+function spawn_ships ()
     local pilots = {}
     local r = rnd.rnd()
 
-    -- Generate the capship
-    scom.addPilot( pilots, "Touscha Kestrel", 175 )
-
-    -- Generate the escorts
+    -- Generate ships
     r = rnd.rnd()
-    if r < 0.5 then
-       scom.addPilot( pilots, "Touscha Javelin", 25 );
-       scom.addPilot( pilots, "Touscha Javelin", 25 );
-    elseif r < 0.8 then
-       scom.addPilot( pilots, "Touscha Javelin", 25 );
+    if r < 0.35 then
+       scom.addPilot( pilots, "Touscha Peregrine", 25 );
+       scom.addPilot( pilots, "Touscha Peregrine", 25 );
+    elseif r < 0.75 then
+       scom.addPilot( pilots, "Touscha Peregrine", 25 );
+       scom.addPilot( pilots, "Touscha Peregrine", 25 );
        scom.addPilot( pilots, "Touscha Vanguard", 40 );
     else
-       scom.addPilot( pilots, "Touscha Javelin", 25 );
+       scom.addPilot( pilots, "Touscha Kestrel", 175 );
        scom.addPilot( pilots, "Touscha Vanguard", 40 );
        scom.addPilot( pilots, "Touscha Vanguard", 40 );
     end
@@ -32,7 +30,7 @@ function create ( max )
     local weights = {}
 
     -- Create weights for spawn table
-    weights[ spawn_capship ] = 100
+    weights[ spawn_ships ] = 100
    
     -- Create spawn table base on weights
     spawn_table = scom.createSpawnTable( weights )
