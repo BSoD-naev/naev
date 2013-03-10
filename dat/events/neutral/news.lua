@@ -33,6 +33,8 @@ else --default english
                                  }
    header_table["Za'lek"] =      {"Scientific, Socioeconomic, and Sundry Events"
                                  }
+   header_table["Touscha"] =     {"Welcome to the Starpoint News Center."
+                                 }
 
    greet_table={}
 
@@ -63,6 +65,9 @@ else --default english
    greet_table["Proteron"] =     {""
                                  }
    greet_table["Za'lek"] =       {""
+                                 }
+   greet_table["Touscha"] =      {"News that's relavant to you.",
+                                 "Info that's actually useful."
                                  }
 
    articles={}
