@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<asset name="Zhett 17B3">
+<asset name="Touscha II">
  <pos>
-  <x>-7414.928427</x>
-  <y>-2447.485149</y>
+  <x>7847.042186</x>
+  <y>-4746.884947</y>
  </pos>
  <GFX>
-  <space>moon-D02.png</space>
-  <exterior>station00.png</exterior>
+  <space>I02.png</space>
+  <exterior>station04.png</exterior>
  </GFX>
  <general>
   <class>A</class>

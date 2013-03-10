@@ -11,10 +11,11 @@
   <y>-150.000000</y>
  </pos>
  <assets>
-  <asset>New Hesaya</asset>
   <asset>Starpoint</asset>
   <asset>Starpoint Shipyards</asset>
-  <asset>Touscha III</asset>
+  <asset>Touscha I</asset>
+  <asset>Touscha II</asset>
+  <asset>Touscha IV</asset>
   <asset>Virtual Civilian Standard</asset>
  </assets>
  <jumps>

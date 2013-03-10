@@ -1,27 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <asset name="Aptitude Station">
  <pos>
-  <x>-6947.554533</x>
-  <y>-2476.401026</y>
+  <x>-7017.382343</x>
+  <y>-3002.659821</y>
  </pos>
  <GFX>
   <space>003.png</space>
-  <exterior>station03.png</exterior>
+  <exterior>station00.png</exterior>
  </GFX>
- <presence>
-  <faction>Empire</faction>
-  <value>75.000000</value>
-  <range>2</range>
- </presence>
  <general>
-  <class>A</class>
+  <class>1</class>
   <population>0</population>
-  <hide>2.250000</hide>
+  <hide>0.500000</hide>
   <services>
    <land/>
-   <refuel/>
   </services>
   <commodities/>
-  <description>(null)</description>
+  <description>The corpse of the secret Empire station known as Aptitude Station was the site of a top-secret and highly illegal research project headed by the Empire. The events that happened here around an STP before the Incident led to the formation of the Touscha mercenaries, and it was the Touscha who shut the station down for good in a climactic battle that saw the death of their leader and several others.</description>
  </general>
 </asset>

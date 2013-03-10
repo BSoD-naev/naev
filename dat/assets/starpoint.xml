@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <asset name="Starpoint">
  <pos>
-  <x>-2938.557652</x>
-  <y>9505.793602</y>
+  <x>3523.449282</x>
+  <y>12574.198788</y>
  </pos>
  <GFX>
   <space>M06.png</space>
@@ -29,8 +29,8 @@
    <commodity>Luxury Goods</commodity>
    <commodity>Medicine</commodity>
   </commodities>
-  <description>Starpoint is the homeworld of the Touscha. It is here where they established a base and grew their numbers after the Incident.</description>
-  <bar>The spaceport bar is packed with mercenaries and those looking to hire them.</bar>
+  <description>Starpoint was the world that the original three leaders of the Touscha, the imperial Keavix Touscha, the Dvaered captain Johann Franklin, and the pirate Exila Drogun were catapulted after their encounter with a secret Imperial base. After realizing that their societeis wouldn't accept them back, they and their crews settled on this planet, and it became a gathering point for outcasts and mercenaries from all cultures. The world itself, a tundra-like world, is mostly rural except for the few major cities that have grown large since their founding a few short years before the incident.</description>
+  <bar>The spaceport bar at Starpoint is filled with the Touscha mercenaries. Most, if not all of then, are clad neck-down in full hi-tech battle armor, and often carry purposefully visible weapons. There are several others here looking to hire the mercenaries, from well-dressed planetary governors to mean-looking pirate lords. </bar>
  </general>
  <tech>
   <item>Systems Medium</item>

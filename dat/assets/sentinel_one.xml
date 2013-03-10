@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<asset name="Sentinel One">
+ <pos>
+  <x>-7691.422867</x>
+  <y>-1569.139647</y>
+ </pos>
+ <GFX>
+  <space>station-battlestation.png</space>
+  <exterior>station03.png</exterior>
+ </GFX>
+ <presence>
+  <faction>Touscha</faction>
+  <value>75.000000</value>
+  <range>2</range>
+ </presence>
+ <general>
+  <class>1</class>
+  <population>500</population>
+  <hide>2.250000</hide>
+  <services>
+   <land/>
+   <refuel/>
+  </services>
+  <commodities/>
+  <description>This station was set up by the Touscha a short time after the capture of Aptitude Station. The purpose of this station is to make sure that no one, especially the empire, finds out about the technology that was used against them during the Battle of Zhett. It also serves as a memorial for their former leader and founder, Keavix Touscha.</description>
+ </general>
+</asset>

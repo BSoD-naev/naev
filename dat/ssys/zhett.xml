@@ -3,7 +3,7 @@
  <general>
   <radius>10000.000000</radius>
   <stars>400</stars>
-  <interference>1000.000000</interference>
+  <interference>100.000000</interference>
   <nebula volatility="0.000000">0.000000</nebula>
  </general>
  <pos>
@@ -12,6 +12,7 @@
  </pos>
  <assets>
   <asset>Aptitude Station</asset>
+  <asset>Sentinel One</asset>
   <asset>Zhett 16A5</asset>
   <asset>Zhett 17B3</asset>
   <asset>Zhett 17B9</asset>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<asset name="Touscha IV">
+ <pos>
+  <x>-20416.901813</x>
+  <y>-14510.875272</y>
+ </pos>
+ <GFX>
+  <space>P03.png</space>
+  <exterior>snow.png</exterior>
+ </GFX>
+ <presence>
+  <faction>Touscha</faction>
+  <value>75.000000</value>
+  <range>2</range>
+ </presence>
+ <general>
+  <class>P</class>
+  <population>1200</population>
+  <hide>0.250000</hide>
+  <services>
+   <land/>
+   <refuel/>
+   <bar/>
+   <missions/>
+  </services>
+  <commodities/>
+  <description>When the industry of the Touscha was becoming well-established, some of them set out to explore the inhospitable outer planet of the system. What surprised them was that the planet was full of certain rare elements needed for space travel and advanced weapon systems. The Touscha quickly set up an outpost on this frigid world and began extracting the material from the planet.</description>
+  <bar>This bar is very generic. What's surprising about this bar, though, is that it is surprisingly empty. There are only at most four or five people here at any one time. It seems that most on this planet are here to work, then leave to the more hospitable entities in the system.</bar>
+ </general>
+</asset>

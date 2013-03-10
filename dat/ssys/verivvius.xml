@@ -7,14 +7,10 @@
   <nebula volatility="0.000000">0.000000</nebula>
  </general>
  <pos>
-  <x>348.000000</x>
-  <y>-272.000000</y>
+  <x>346.000000</x>
+  <y>-263.000000</y>
  </pos>
- <assets>
-  <asset>Virtual Dvaered Unpresence</asset>
-  <asset>Virtual Empire Small</asset>
-  <asset>Virtual Pirate Unpresence</asset>
- </assets>
+ <assets/>
  <jumps>
   <jump target="Sevrea">
    <autopos/>

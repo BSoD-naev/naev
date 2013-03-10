@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<asset name="Touscha I">
+ <pos>
+  <x>-1804.269208</x>
+  <y>2071.542872</y>
+ </pos>
+ <GFX>
+  <space>A04.png</space>
+  <exterior>lava.png</exterior>
+ </GFX>
+ <presence>
+  <faction>Touscha</faction>
+  <value>0.000000</value>
+  <range>2</range>
+ </presence>
+ <general>
+  <class>A</class>
+  <population>0</population>
+  <hide>0.250000</hide>
+  <services/>
+ </general>
+</asset>

@@ -6,17 +6,17 @@
  </version>
  <diffs/>
  <player name="mapexplore">
-  <rating>286.000000</rating>
-  <credits>99999976511310</credits>
+  <rating>296.000000</rating>
+  <credits>99999976507110</credits>
   <guiOverride>0</guiOverride>
   <mapOverlay>0</mapOverlay>
   <time>
    <SCU>603</SCU>
-   <STP>4028</STP>
-   <STU>6665</STU>
-   <Remainder>738.077035</Remainder>
+   <STP>4055</STP>
+   <STU>9804</STU>
+   <Remainder>153.207973</Remainder>
   </time>
-  <location>Starpoint Shipyards</location>
+  <location>Starpoint</location>
   <ship name="Peregrine" model="Touscha Peregrine">
    <fuel>400.000000</fuel>
    <outfits_structure>
@@ -256,19 +256,18 @@
  <missions/>
  <events/>
  <news>
-  <article title="Welcome to the Starpoint News Center." desc="News that's relavant to you." faction="Touscha" date="50000000000005" date_to_rm="50000000000005" id="1653"/>
-  <article title="Welcome to the Dvaered News Centre. All that happens. In simple words. So you can understand." desc="" faction="Dvaered" date="50000000000005" date_to_rm="50000000000005" id="1325"/>
+  <article title="Welcome to the Starpoint News Center." desc="News that's relavant to you." faction="Touscha" date="50000000000005" date_to_rm="50000000000005" id="1754"/>
+  <article title="Welcome to the Dvaered News Centre. All that happens. In simple words. So you can understand." desc="" faction="Dvaered" date="50000000000005" date_to_rm="50000000000005" id="1706"/>
   <article title="Welcome to the Empire News Centre." desc="Fresh news from around the Empire." faction="Empire" date="50000000000005" date_to_rm="50000000000005" id="1319"/>
   <article title="Welcome to Goddard News Centre. We bring you the news from around the Empire." desc="" faction="Goddard" date="50000000000005" date_to_rm="50000000000005" id="1091"/>
   <article title="Pirate News. News that matters." desc="Laughing at the Emperor." faction="Pirate" date="50000000000005" date_to_rm="50000000000005" id="372"/>
   <article title="Sirius News Reel. Words of the Sirichana for all." desc="Stay faithful." faction="Sirius" date="50000000000005" date_to_rm="50000000000005" id="517"/>
   <article title="News from the Frontier Alliance." desc="News you can trust." faction="Frontier" date="50000000000005" date_to_rm="50000000000005" id="522"/>
   <article title="Welcome to Universal News Feed. All the headlines all the time." desc="" faction="Independent" date="50000000000005" date_to_rm="50000000000005" id="1003"/>
-  <article title="FLF Responsible for Piracy" desc="Law enforcement expert Paet Dohmer's upcoming essay describes the group as &quot;more criminal gang than independence movement&quot;, according to his publicist." faction="Generic" date="0" date_to_rm="500000000000000" id="1657"/>
-  <article title="Imperial Oversight Scandal" desc="Sources close to the Imperial Chancellor say they see the failure at the Department of Oversight, whose inspectors overlooked serious failings in other supervisory bodies, as a serious oversight." faction="Generic" date="0" date_to_rm="500000000000000" id="1656"/>
-  <article title="Everyone Loves a SuperChimp" desc="For decades used only as menial labourers, now SuperChimps are being widely adopted as domestic companions. Enhanced primates make an affectionate, intelligent pet, or low-cost servant." faction="Generic" date="0" date_to_rm="500000000000000" id="1655"/>
-  <article title="Hyperspace is Hot" desc="Researchers have found traces of matter moving very quickly in hyperspace. They are not yet sure whether the minute particles originated there, or are human contaminants." faction="Generic" date="0" date_to_rm="500000000000000" id="1654"/>
-  <article title="New Mace Rockets" desc="Dvaered Engineers are proud to present the new improved version of the Dvaered Mace rocket. &quot;We have proven the new rocket to be nearly twice as destructive as the previous versions,&quot; says Chief Dvaered Engineer Nordstrom." faction="Dvaered" date="0" date_to_rm="500000000000000" id="1330"/>
+  <article title="The Case for Sex" desc="Though cloning rates continue to rise, Vlad Taneev believes we can still benefit from genetic recombination. &quot;Lady chance is more creative than we,&quot; says the famous gene splicer." faction="Generic" date="0" date_to_rm="500000000000000" id="1757"/>
+  <article title="The Goddard Exception" desc="Why has a community with more expertise sailing than flying produced the Empire's elite civilian spacecraft?  Lord Warthon says the secret lies in his family's hands-on tradition of leadership." faction="Generic" date="0" date_to_rm="500000000000000" id="1756"/>
+  <article title="Experiment Produces Cold Fusion" desc="In an interview with Bleeding Edge anchor McKenzie Kruft, a researcher at Eureka labs says he has produced a tabletop atomic reaction. He hopes to publish his results in a science journal later this year." faction="Generic" date="0" date_to_rm="500000000000000" id="1755"/>
+  <article title="Sirius Weaker Than Ever" desc="This SCU breaks the negative record for fewest pilgrims to Mutris since the formation of House Sirius. This weakness is yet another sign that House Dvaered must increase patrols on the border and into Sirius space." faction="Dvaered" date="0" date_to_rm="500000000000000" id="1711"/>
   <article title="New Cat in the Imperial Family" desc="The Emperor's daughter was recently gifted a cat. Cat could be named &quot;Snuggles&quot; and seems to be all white." faction="Empire" date="0" date_to_rm="500000000000000" id="1324"/>
   <article title="Goddard: Raising the Bar" desc="Many new scientists are being contracted by House Goddard to investigate possible improvements. This new strategy will increase the gap with the competing ship fabricators." faction="Goddard" date="0" date_to_rm="500000000000000" id="1096"/>
   <article title="Emperor Weaker Than Ever" desc="Recent actions demonstrate the inefficiency and weakness of the Emperor. One of the last irrational decisions left Eridani without a defense fleet to protect the traders. It's a great time to be a pirate." faction="Pirate" date="0" date_to_rm="500000000000000" id="377"/>
@@ -337,6 +336,1263 @@
  </factions>
  <hooks/>
  <space>
+  <known sys="Acheron">
+   <jump>Fortitude</jump>
+   <jump>Merisi</jump>
+   <jump>Sikh</jump>
+  </known>
+  <known sys="Adraia">
+   <jump>Gilligan's Tomb</jump>
+   <jump>Ulysses</jump>
+   <jump>Vanir</jump>
+  </known>
+  <known sys="Aesir">
+   <planet>Aesir IV</planet>
+   <planet>Gayathi</planet>
+   <planet>Mutris</planet>
+   <planet>Sirius Ordnance</planet>
+   <planet>Sirius Shipyards</planet>
+   <planet>Urail</planet>
+   <jump>Vanir</jump>
+  </known>
+  <known sys="Allous">
+   <planet>Allous GG-3</planet>
+   <planet>Allous I</planet>
+   <planet>Allous II</planet>
+   <planet>Allous Station</planet>
+   <planet>Nanek</planet>
+   <jump>Faust</jump>
+   <jump>Palin</jump>
+   <jump>Suk</jump>
+  </known>
+  <known sys="Alteris">
+   <planet>Alteris I</planet>
+   <planet>Alteris IV</planet>
+   <planet>Alteris V</planet>
+   <planet>Darkshed</planet>
+   <planet>Ozogo X</planet>
+   <planet>Takeru</planet>
+   <jump>Coriolis</jump>
+   <jump>Delta Pavonis</jump>
+   <jump>Eridani</jump>
+   <jump>Sikh</jump>
+  </known>
+  <known sys="Alvarron">
+   <jump>Ingot</jump>
+   <jump>Kilva</jump>
+  </known>
+  <known sys="Amaroq">
+   <planet>Amaroq I</planet>
+   <planet>Amaroq III</planet>
+   <planet>PSO Moniter</planet>
+   <planet>Rhaana</planet>
+   <jump>Marat</jump>
+   <jump>PSO</jump>
+  </known>
+  <known sys="Amatiri">
+   <planet>Amatiri I</planet>
+   <planet>Amatiri II</planet>
+   <planet>Amatiri Ia</planet>
+   <jump>Ariadus</jump>
+   <jump>Sleuth</jump>
+  </known>
+  <known sys="Anarbalis">
+   <planet>Anarbalis II</planet>
+   <planet>Anarbalis III</planet>
+   <planet>Freshwater Station</planet>
+   <planet>Racheka</planet>
+   <planet>Racheka Secundus</planet>
+   <jump>Humdrum</jump>
+   <jump>Lapis</jump>
+  </known>
+  <known sys="Andee">
+   <planet>Andee II</planet>
+   <planet>Andee III</planet>
+   <planet>Andee IIIa</planet>
+   <planet>Andee IIa</planet>
+   <planet>Opal Station</planet>
+   <planet>Varaati</planet>
+   <jump>Brimstone</jump>
+  </known>
+  <known sys="Andres">
+   <jump>Gamel</jump>
+  </known>
+  <known sys="Aneel Azi">
+   <planet>Edergast</planet>
+   <jump>Antigone</jump>
+   <jump>Brimstone</jump>
+   <jump>Hephaestus</jump>
+  </known>
+  <known sys="Anger">
+   <planet>Anger I</planet>
+   <planet>Anger II</planet>
+   <planet>Rage</planet>
+   <jump>Ryder</jump>
+   <jump>Tormulex</jump>
+  </known>
+  <known sys="An'ku">
+   <planet>An'ku I</planet>
+   <planet>An'ku II</planet>
+   <planet>An'ku III</planet>
+   <planet>Eenerim</planet>
+   <planet>Sroolu</planet>
+   <planet>Tankard Station</planet>
+   <jump>Humdrum</jump>
+   <jump>Tarmak</jump>
+  </known>
+  <known sys="Anrique">
+   <jump>Herakin</jump>
+  </known>
+  <known sys="Antigone">
+   <jump>Aneel Azi</jump>
+   <jump>Starpoint</jump>
+  </known>
+  <known sys="Apez">
+   <planet>Apez II</planet>
+   <planet>Apez V</planet>
+   <planet>Crylo</planet>
+   <planet>Dowue</planet>
+   <planet>Gem</planet>
+   <planet>Zeo</planet>
+   <jump>Gamma Polaris</jump>
+   <jump>Hekaras</jump>
+   <jump>Mural</jump>
+  </known>
+  <known sys="Arandon">
+   <jump>Doeston</jump>
+   <jump>Oriantis</jump>
+   <jump>Polaris</jump>
+   <jump>Zerantix</jump>
+  </known>
+  <known sys="Arcanis">
+   <jump>Gregor</jump>
+   <jump>Raelid</jump>
+   <jump>Sigur</jump>
+   <jump>Zylex</jump>
+  </known>
+  <known sys="Arcturus">
+   <planet>Antica</planet>
+   <planet>Arcturus Gamma</planet>
+   <planet>Arcturus I</planet>
+   <planet>Arcturus II</planet>
+   <planet>Brooks</planet>
+   <planet>Mouddar</planet>
+   <jump>Borla</jump>
+   <jump>Goddard</jump>
+   <jump>Mural</jump>
+  </known>
+  <known sys="Ariadus">
+   <planet>Ariadus II</planet>
+   <planet>Ariadus IV</planet>
+   <planet>Ariadus VI</planet>
+   <planet>Ariadus VIa</planet>
+   <planet>Ariadus VIb</planet>
+   <planet>Belltower Station</planet>
+   <planet>Janko</planet>
+   <planet>Magellan</planet>
+   <planet>Trichu</planet>
+   <jump>Amatiri</jump>
+  </known>
+  <known sys="Atlantis">
+   <planet>Atlantis I</planet>
+   <jump>Pike</jump>
+   <jump>Shickhaw</jump>
+   <jump>Sten</jump>
+  </known>
+  <known sys="Awowa">
+   <planet>Awowa IV</planet>
+   <planet>Awowa V</planet>
+   <planet>Odonga</planet>
+   <planet>Odonga m1</planet>
+   <jump>Ginger</jump>
+   <jump>Maus</jump>
+  </known>
+  <known sys="Babylon">
+   <planet>Babylon I</planet>
+   <planet>Babylon II</planet>
+   <planet>Babylon IIa</planet>
+   <planet>Scipio</planet>
+   <jump>Dendria</jump>
+   <jump>Elza</jump>
+  </known>
+  <known sys="Baf">
+   <planet>BGG-1356</planet>
+   <planet>Baf I</planet>
+   <planet>Baf IV</planet>
+   <planet>Dumas Station</planet>
+   <planet>MGG-1294</planet>
+   <jump>Beeklo</jump>
+  </known>
+  <known sys="Basel">
+   <planet>Basel I</planet>
+   <planet>Sorom</planet>
+   <planet>Vigil Station</planet>
+   <jump>Iris</jump>
+  </known>
+  <known sys="Bastion">
+   <jump>Elixir</jump>
+   <jump>Fury</jump>
+   <jump>Gamel</jump>
+  </known>
+  <known sys="Beeklo">
+   <planet>Adham</planet>
+   <planet>Beeklo II</planet>
+   <planet>Diabolos</planet>
+   <planet>Icarus</planet>
+   <planet>Totoran</planet>
+   <jump>Baf</jump>
+   <jump>Darkstone</jump>
+   <jump>Dvaer</jump>
+  </known>
+  <known sys="Behar">
+   <jump>Doeston</jump>
+   <jump>Sigur</jump>
+  </known>
+  <known sys="Blackwell">
+   <planet>Blackwell I</planet>
+   <planet>Blackwell IIX</planet>
+   <planet>Blackwell VII</planet>
+   <planet>Colley</planet>
+   <planet>Slofeldt</planet>
+   <jump>Jade</jump>
+   <jump>Pastor</jump>
+  </known>
+  <known sys="Blunderbuss">
+   <planet>Blunderbuss II</planet>
+   <planet>DVNN Central</planet>
+   <planet>Greis</planet>
+   <planet>Onar</planet>
+   <planet>Utsuwa</planet>
+   <jump>Verex</jump>
+   <jump>Zied</jump>
+  </known>
+  <known sys="Bonanza">
+   <planet>Bonanza I</planet>
+   <planet>Bonanza II</planet>
+   <jump>Hasselt</jump>
+   <jump>Malebolge</jump>
+   <jump>Norn</jump>
+   <jump>Sylph</jump>
+  </known>
+  <known sys="Borla">
+   <jump>Arcturus</jump>
+   <jump>Merisi</jump>
+   <jump>Mural</jump>
+   <jump>Shakar</jump>
+  </known>
+  <known sys="Botarn">
+   <planet>Arashu</planet>
+   <planet>Botarn I</planet>
+   <planet>Dundrop Station</planet>
+   <jump>Monogram</jump>
+   <jump>Vanir</jump>
+  </known>
+  <known sys="Brendon">
+   <planet>Brendon I</planet>
+   <planet>Margot</planet>
+   <planet>Pokyos Station</planet>
+   <planet>Zazarin</planet>
+   <jump>Gilligan's Tomb</jump>
+   <jump>Toxin</jump>
+  </known>
+  <known sys="Brimstone">
+   <planet>Brimstone I</planet>
+   <planet>Brimstone II</planet>
+   <planet>Brimstone III</planet>
+   <planet>Brimstone Ia</planet>
+   <planet>Brimstone Ib</planet>
+   <planet>Nonuri</planet>
+   <jump>Andee</jump>
+   <jump>Aneel Azi</jump>
+   <jump>Shickhaw</jump>
+   <jump>Triap</jump>
+  </known>
+  <known sys="C-00">
+   <planet>P0125</planet>
+   <planet>S00000</planet>
+   <planet>S23001</planet>
+   <planet>S49588</planet>
+   <jump>C-14</jump>
+   <jump>C-28</jump>
+  </known>
+  <known sys="C-14">
+   <planet>P9234</planet>
+   <planet>S49281</planet>
+   <planet>S49335</planet>
+   <jump>C-00</jump>
+   <jump>C-43</jump>
+  </known>
+  <known sys="C-28">
+   <planet>P2020</planet>
+   <planet>P2021</planet>
+   <planet>P2022</planet>
+   <planet>S00018</planet>
+   <planet>S00522</planet>
+   <planet>S00653</planet>
+   <planet>S38729</planet>
+   <jump>C-00</jump>
+   <jump>C-59</jump>
+   <jump>Mason</jump>
+  </known>
+  <known sys="C-43">
+   <planet>Eiroik</planet>
+   <planet>S23491</planet>
+   <planet>S58309</planet>
+   <planet>S91456</planet>
+   <jump>C-14</jump>
+   <jump>C-59</jump>
+   <jump>Hades</jump>
+  </known>
+  <known sys="C-59">
+   <planet>P9122</planet>
+   <planet>S13024</planet>
+   <planet>S72288</planet>
+   <planet>S72839</planet>
+   <jump>C-28</jump>
+   <jump>C-43</jump>
+   <jump>Hades</jump>
+  </known>
+  <known sys="Capricorn">
+   <planet>Capricorn II</planet>
+   <planet>Capricorn III</planet>
+   <planet>Capricorn IIIa</planet>
+   <planet>Durea</planet>
+   <jump>Pontus</jump>
+   <jump>Rockbed</jump>
+  </known>
+  <known sys="Castellan">
+   <planet>Castellan Epsilon</planet>
+   <planet>Castellan I</planet>
+   <planet>Castellan III</planet>
+   <planet>Castellan VI</planet>
+   <planet>Dunmer</planet>
+   <planet>Leszec</planet>
+   <jump>Farizel</jump>
+   <jump>Maus</jump>
+  </known>
+  <known sys="Cerberus">
+   <planet>Cerberus I</planet>
+   <planet>Cerberus II</planet>
+   <planet>Cerberus IIa</planet>
+   <planet>Cerberus IV</planet>
+   <planet>Culex</planet>
+   <planet>Myonei</planet>
+   <planet>Soromid Databank</planet>
+   <jump>Feye</jump>
+   <jump>Jervis</jump>
+   <jump>Sergio Vix</jump>
+  </known>
+  <known sys="Cherokee">
+   <planet>Abandoned Station</planet>
+   <jump>Iroquois</jump>
+   <jump>Mohawk</jump>
+  </known>
+  <known sys="Chloe">
+   <jump>Polack</jump>
+   <jump>Wolf</jump>
+  </known>
+  <known sys="Chraan">
+   <jump>Karman</jump>
+   <jump>Nougat</jump>
+   <jump>Triap</jump>
+  </known>
+  <known sys="Churchill">
+   <planet>Churchill I</planet>
+   <planet>Churchill II</planet>
+   <planet>Churchill IIa</planet>
+   <planet>Lorelei</planet>
+   <planet>Ururis</planet>
+   <planet>Violin Station</planet>
+   <jump>Eiderdown</jump>
+   <jump>Muirat</jump>
+   <jump>Willow</jump>
+  </known>
+  <known sys="Coriolis">
+   <jump>Alteris</jump>
+   <jump>Gamel</jump>
+   <jump>Rockbed</jump>
+  </known>
+  <known sys="Corvus">
+   <planet>Corax</planet>
+   <planet>Corvus I</planet>
+   <planet>Corvus VI</planet>
+   <planet>Corvus VI-a</planet>
+   <planet>Corvus VI-b</planet>
+   <planet>Crow</planet>
+   <jump>Octantis</jump>
+   <jump>Regulus</jump>
+   <jump>Tandar</jump>
+  </known>
+  <known sys="Cygnus">
+   <planet>Cygnus IV</planet>
+   <planet>Hassak</planet>
+   <planet>Inca</planet>
+   <planet>Jaan</planet>
+   <planet>Maya</planet>
+   <planet>Torloth</planet>
+   <planet>Triton Station</planet>
+   <jump>Delta Pavonis</jump>
+  </known>
+  <known sys="Daan">
+   <jump>Daravon</jump>
+   <jump>Gammacron</jump>
+  </known>
+  <known sys="Dakron">
+   <planet>Dakron III</planet>
+   <planet>Dakron V</planet>
+   <planet>Shariff Station</planet>
+   <planet>Thar</planet>
+   <jump>Doranthex</jump>
+   <jump>Theras</jump>
+  </known>
+  <known sys="Daled">
+   <jump>Haven</jump>
+   <jump>Wahri</jump>
+  </known>
+  <known sys="Daravon">
+   <planet>Daravon I</planet>
+   <planet>Daravon III</planet>
+   <planet>Eclipse Station</planet>
+   <planet>Vilati Vilata</planet>
+   <jump>Daan</jump>
+   <jump>Gremlin</jump>
+   <jump>Perhelion</jump>
+   <jump>Pudas</jump>
+  </known>
+  <known sys="Darkstone">
+   <planet>Darkstone IV</planet>
+   <planet>Darkstone V</planet>
+   <planet>Sheik Hall</planet>
+   <planet>Stalwart Station</planet>
+   <planet>Varia</planet>
+   <jump>Beeklo</jump>
+   <jump>Verex</jump>
+  </known>
+  <known sys="Defa">
+   <jump>Oberon</jump>
+   <jump>Pilatis</jump>
+  </known>
+  <known sys="Delta Pavonis">
+   <planet>Caladan</planet>
+   <planet>Delta Pavonis I</planet>
+   <planet>Delta Pavonis II</planet>
+   <planet>Delta Pavonis IIa</planet>
+   <planet>Nappi</planet>
+   <planet>Ridrack</planet>
+   <planet>Seanich</planet>
+   <jump>Alteris</jump>
+   <jump>Cygnus</jump>
+   <jump>Goddard</jump>
+  </known>
+  <known sys="Delta Polaris">
+   <planet>Benteen</planet>
+   <planet>Bolero</planet>
+   <planet>Delta Polaris I</planet>
+   <planet>Delta Polaris II</planet>
+   <planet>Delta Polaris VI</planet>
+   <planet>Falas</planet>
+   <jump>Jade</jump>
+   <jump>Zemur</jump>
+  </known>
+  <known sys="Dendria">
+   <jump>Babylon</jump>
+   <jump>Diadem</jump>
+   <jump>Dust</jump>
+   <jump>Titus</jump>
+  </known>
+  <known sys="Diadem">
+   <planet>Diadem I</planet>
+   <planet>Diadem II</planet>
+   <planet>Leo</planet>
+   <planet>Riun</planet>
+   <jump>Dendria</jump>
+   <jump>Khaas</jump>
+   <jump>Solene</jump>
+  </known>
+  <known sys="Doeston">
+   <planet>Cerberus</planet>
+   <planet>Doeston Prime</planet>
+   <jump>Arandon</jump>
+   <jump>Behar</jump>
+   <jump>Myad</jump>
+   <jump>Toros</jump>
+   <jump>Zylex</jump>
+  </known>
+  <known sys="Dohriabi">
+   <planet>Dohriabi Prime</planet>
+   <planet>Niflheim</planet>
+   <jump>Overture</jump>
+  </known>
+  <known sys="Doranthex">
+   <planet>Doranthex Prime</planet>
+   <planet>Doranthex Secundus</planet>
+   <planet>Secundus Alpha</planet>
+   <planet>Secundus Beta</planet>
+   <jump>Dakron</jump>
+   <jump>Ogat</jump>
+   <jump>Tarsus</jump>
+   <jump>Torg</jump>
+   <jump>Tuoladis</jump>
+  </known>
+  <known sys="Draconis">
+   <planet>Draconis Alpha</planet>
+   <planet>Draconis Beta</planet>
+   <planet>Draconis Delta</planet>
+   <planet>Draconis Epsilon</planet>
+   <planet>Draconis Gamma</planet>
+   <planet>Draconis Omega</planet>
+   <planet>Zabween</planet>
+   <jump>Tau Prime</jump>
+  </known>
+  <known sys="Draygar">
+   <planet>Anecu</planet>
+   <planet>Draygar III</planet>
+   <planet>Durumdra</planet>
+   <planet>Hikatalat</planet>
+   <planet>INSS-3</planet>
+   <planet>Varona</planet>
+   <jump>Tau Prime</jump>
+  </known>
+  <known sys="Druid">
+   <jump>Fidelis</jump>
+   <jump>Millstone</jump>
+   <jump>Peter</jump>
+  </known>
+  <known sys="Druss">
+   <planet>Druss II</planet>
+   <planet>Druss III</planet>
+   <planet>Druss IIa</planet>
+   <planet>Gath Station</planet>
+   <planet>Lora-Mor</planet>
+   <planet>Samell</planet>
+   <jump>Kyo</jump>
+   <jump>Ruttwi</jump>
+   <jump>Valur Gem</jump>
+  </known>
+  <known sys="Dune">
+   <planet>Arrakis</planet>
+   <planet>Nixa</planet>
+   <planet>Vert</planet>
+   <jump>Eridani</jump>
+   <jump>Gamel</jump>
+   <jump>Halo</jump>
+  </known>
+  <known sys="Duros">
+   <planet>Duros I</planet>
+   <planet>Duros Ia</planet>
+   <planet>Trevis Station</planet>
+   <jump>Fulcrum</jump>
+   <jump>Jackson</jump>
+   <jump>Palovi</jump>
+  </known>
+  <known sys="Dust">
+   <planet>Dust</planet>
+   <jump>Dendria</jump>
+   <jump>Forlat</jump>
+  </known>
+  <known sys="Dvaer">
+   <planet>Dvaer II</planet>
+   <planet>Dvaer III</planet>
+   <planet>Dvaer IIIa</planet>
+   <planet>Dvaer IV</planet>
+   <planet>Dvaer Prime</planet>
+   <planet>Dvaered High Command</planet>
+   <planet>Eist Shipyard</planet>
+   <planet>Laarss</planet>
+   <jump>Beeklo</jump>
+   <jump>Gremlin</jump>
+   <jump>Radix</jump>
+   <jump>Urbanus</jump>
+  </known>
+  <known sys="Eiderdown">
+   <planet>Adrian</planet>
+   <planet>Eiderdown I</planet>
+   <planet>Eiderdown III</planet>
+   <planet>Ember</planet>
+   <planet>Forge</planet>
+   <jump>Churchill</jump>
+   <jump>Gilligan's Tomb</jump>
+   <jump>Herakin</jump>
+   <jump>Palovi</jump>
+  </known>
+  <known sys="Eisenhorn">
+   <jump>Korma</jump>
+   <jump>Qellan</jump>
+   <jump>Sorrow</jump>
+  </known>
+  <known sys="Elixir">
+   <planet>Elixir I</planet>
+   <jump>Bastion</jump>
+   <jump>Titus</jump>
+  </known>
+  <known sys="Elza">
+   <planet>Elza I</planet>
+   <planet>Elza III</planet>
+   <planet>Elza Ia</planet>
+   <planet>Oring</planet>
+   <jump>Babylon</jump>
+   <jump>Moordra</jump>
+   <jump>Sergio Vix</jump>
+  </known>
+  <known sys="Eneguoz">
+   <planet>Eneguoz II</planet>
+   <planet>Oma</planet>
+   <planet>Opa</planet>
+   <planet>Shiarta</planet>
+   <jump>Hakoi</jump>
+   <jump>Qex</jump>
+  </known>
+  <known sys="Eridani">
+   <planet>Eridani II</planet>
+   <planet>Eridani III</planet>
+   <planet>Selphod</planet>
+   <planet>The Crucible</planet>
+   <jump>Alteris</jump>
+   <jump>Dune</jump>
+  </known>
+  <known sys="Esker">
+   <planet>Esker I</planet>
+   <planet>Esker II</planet>
+   <planet>Esker IV</planet>
+   <planet>Fyruse Station</planet>
+   <planet>Madria</planet>
+   <planet>Suoer</planet>
+   <jump>Gutter</jump>
+   <jump>Nougat</jump>
+   <jump>Scarlet</jump>
+  </known>
+  <known sys="Euler">
+   <planet>Euler I</planet>
+   <planet>Euler II</planet>
+   <planet>Euler III</planet>
+   <planet>Euler IIIa</planet>
+   <planet>Euler IV</planet>
+   <planet>Euler Ia</planet>
+   <jump>Narousse</jump>
+  </known>
+  <known sys="Eye of Night">
+   <planet>Eye of Night I</planet>
+   <planet>Eye of Night II</planet>
+   <planet>Eye of Night III</planet>
+   <planet>Inios Station</planet>
+   <planet>Traal</planet>
+   <jump>Fidelis</jump>
+   <jump>Lapis</jump>
+   <jump>Ruttwi</jump>
+  </known>
+  <known sys="Farizel">
+   <planet>Baba Yaga</planet>
+   <planet>Damphyr</planet>
+   <planet>Morgan Station</planet>
+   <planet>Oni</planet>
+   <planet>Worgen</planet>
+   <jump>Castellan</jump>
+   <jump>Ksher</jump>
+   <jump>Radix</jump>
+   <jump>Vandal</jump>
+  </known>
+  <known sys="Father's Pride">
+   <planet>Father's Pride I</planet>
+   <planet>Father's Pride II</planet>
+   <planet>Father's Pride III</planet>
+   <planet>Flach</planet>
+   <planet>Hartwell Station</planet>
+   <planet>Rudderfern</planet>
+   <jump>Gewirn</jump>
+   <jump>Hatter</jump>
+   <jump>Shikima</jump>
+  </known>
+  <known sys="Faust">
+   <planet>Faust III</planet>
+   <planet>Faust VI</planet>
+   <planet>PSO 2345</planet>
+   <jump>Allous</jump>
+   <jump>PSO</jump>
+   <jump>Sagittarius Prime</jump>
+   <jump>Sultan</jump>
+  </known>
+  <known sys="Felzen">
+   <jump>Sagittarius Prime</jump>
+   <jump>Sarrii</jump>
+  </known>
+  <known sys="Fern">
+   <jump>Korma</jump>
+  </known>
+  <known sys="Feye">
+   <planet>Feye I</planet>
+   <planet>Feye IV</planet>
+   <planet>Kataka</planet>
+   <planet>Memory of Sorom</planet>
+   <planet>Neurri</planet>
+   <jump>Cerberus</jump>
+   <jump>Pisces Prime</jump>
+   <jump>Uridhrion</jump>
+  </known>
+  <known sys="Fidelis">
+   <planet>Fidelis III</planet>
+   <planet>Fidelis IV</planet>
+   <planet>Mannannan</planet>
+   <planet>Petaat</planet>
+   <jump>Druid</jump>
+   <jump>Eye of Night</jump>
+  </known>
+  <known sys="Forlat">
+   <jump>Dust</jump>
+   <jump>Muran</jump>
+   <jump>Wahri</jump>
+  </known>
+  <known sys="Fortitude">
+   <planet>Fortitude I</planet>
+   <planet>Fortitude II</planet>
+   <planet>Fortitude III</planet>
+   <planet>Omega Station</planet>
+   <jump>Acheron</jump>
+   <jump>Hades</jump>
+   <jump>Polack</jump>
+   <jump>Pontus</jump>
+  </known>
+  <known sys="Fried">
+   <planet>Claudius Mehan</planet>
+   <planet>Fried I</planet>
+   <planet>Fried II</planet>
+   <planet>Fried III</planet>
+   <planet>Fried IIIa</planet>
+   <planet>Fried Ia</planet>
+   <jump>Gold</jump>
+   <jump>Limbo</jump>
+  </known>
+  <known sys="Fulcrum">
+   <planet>Ferrungir</planet>
+   <planet>Fulcrum I</planet>
+   <jump>Duros</jump>
+   <jump>Gyrios</jump>
+   <jump>Jackson</jump>
+  </known>
+  <known sys="Fury">
+   <planet>Fury I</planet>
+   <jump>Bastion</jump>
+  </known>
+  <known sys="Gamel">
+   <jump>Andres</jump>
+   <jump>Bastion</jump>
+   <jump>Coriolis</jump>
+   <jump>Dune</jump>
+   <jump>Haven</jump>
+  </known>
+  <known sys="Gammacron">
+   <planet>Gammacron IV</planet>
+   <planet>Gammacron V</planet>
+   <planet>Gammacron Va</planet>
+   <planet>Gammacron Vb</planet>
+   <planet>Pund</planet>
+   <jump>Daan</jump>
+   <jump>Limbo</jump>
+   <jump>Zied</jump>
+  </known>
+  <known sys="Gamma Polaris">
+   <planet>Emperor's Fist</planet>
+   <planet>Emperor's Wrath</planet>
+   <planet>Halir</planet>
+   <planet>New Deimos</planet>
+   <planet>New Mars</planet>
+   <planet>New Phobos</planet>
+   <planet>New Pluto</planet>
+   <planet>Polaris Prime</planet>
+   <planet>Vuere</planet>
+   <jump>Apez</jump>
+   <jump>Koralis</jump>
+   <jump>Qex</jump>
+   <jump>Shakar</jump>
+   <jump>Sirou</jump>
+  </known>
+  <known sys="Gewirn">
+   <planet>Charcoal</planet>
+   <planet>Gewirn IV</planet>
+   <planet>Jasmine</planet>
+   <jump>Father's Pride</jump>
+   <jump>Point Zero</jump>
+  </known>
+  <known sys="Gilligan's Light">
+   <planet>Dawn</planet>
+   <planet>Dusk</planet>
+   <planet>Gilligan's Light III</planet>
+   <planet>The Frontier Council</planet>
+   <jump>Theras</jump>
+  </known>
+  <known sys="Gilligan's Memory">
+   <planet>Gilligan's Memory</planet>
+   <planet>Zero-Eleven</planet>
+   <planet>Zero-Five</planet>
+   <planet>Zero-One</planet>
+   <jump>Tarmak</jump>
+  </known>
+  <known sys="Gilligan's Tomb">
+   <planet>Gilligan's Tomb</planet>
+   <jump>Adraia</jump>
+   <jump>Brendon</jump>
+   <jump>Eiderdown</jump>
+  </known>
+  <known sys="Ginger">
+   <planet>Buritt</planet>
+   <planet>Ginger II</planet>
+   <planet>Ginger III</planet>
+   <planet>Ullnorn</planet>
+   <jump>Awowa</jump>
+   <jump>Verex</jump>
+  </known>
+  <known sys="Goddard">
+   <planet>Geron</planet>
+   <planet>Goddard III</planet>
+   <planet>Goddard IV</planet>
+   <planet>Imk</planet>
+   <planet>Manuel Station</planet>
+   <planet>Zhiru</planet>
+   <jump>Arcturus</jump>
+   <jump>Delta Pavonis</jump>
+   <jump>Ogat</jump>
+  </known>
+  <known sys="Gold">
+   <jump>Fried</jump>
+   <jump>Sheffield</jump>
+  </known>
+  <known sys="Gregor">
+   <jump>Arcanis</jump>
+   <jump>Kilva</jump>
+  </known>
+  <known sys="Gremlin">
+   <jump>Daravon</jump>
+   <jump>Dvaer</jump>
+  </known>
+  <known sys="Griffin">
+   <planet>Griffin  II</planet>
+   <planet>Griffin I</planet>
+   <planet>Griffin III</planet>
+   <planet>Griffin VI</planet>
+   <planet>Sander</planet>
+   <jump>Yarn</jump>
+  </known>
+  <known sys="Gruz">
+   <planet>Brock</planet>
+   <planet>Gruz I</planet>
+   <planet>Gruz II</planet>
+   <planet>Gruz III</planet>
+   <planet>Tora</planet>
+   <jump>Infinity</jump>
+   <jump>Millstone</jump>
+   <jump>Palin</jump>
+  </known>
+  <known sys="Gutter">
+   <planet>Gutter I</planet>
+   <planet>Gutter III</planet>
+   <planet>Hurne Station</planet>
+   <planet>Janus Farming Station</planet>
+   <planet>Vennis</planet>
+   <jump>Esker</jump>
+   <jump>Tartan</jump>
+  </known>
+  <known sys="Gyrios">
+   <planet>Gyrios II</planet>
+   <planet>Gyrios IV</planet>
+   <planet>Gyrios V</planet>
+   <planet>Jaegnhild</planet>
+   <planet>Lapra</planet>
+   <planet>Uuries</planet>
+   <jump>Fulcrum</jump>
+   <jump>Karman</jump>
+  </known>
+  <known sys="Hades">
+   <jump>C-43</jump>
+   <jump>C-59</jump>
+   <jump>Fortitude</jump>
+  </known>
+  <known sys="Hadosh">
+   <planet>Daahrax</planet>
+   <planet>Hadosh II</planet>
+   <planet>Hadosh III</planet>
+   <planet>Hadosh IV</planet>
+   <planet>Hadosh Ia</planet>
+   <planet>Scorpion Station</planet>
+   <planet>Soromid Wards Gamma</planet>
+   <jump>Opal</jump>
+   <jump>Ram</jump>
+   <jump>Symm</jump>
+  </known>
+  <known sys="Haered">
+   <jump>Protera</jump>
+   <jump>Sol</jump>
+  </known>
+  <known sys="Hakoi">
+   <planet>Em 1</planet>
+   <planet>Em 2</planet>
+   <planet>Em 4</planet>
+   <planet>Em 5</planet>
+   <planet>INSS-1</planet>
+   <jump>Eneguoz</jump>
+   <jump>Salvador</jump>
+  </known>
+  <known sys="Haleb">
+   <planet>Haleb IV</planet>
+   <planet>Jorlan</planet>
+   <planet>Raglan Outpost</planet>
+   <jump>Slaccid</jump>
+   <jump>Theras</jump>
+   <jump>Triap</jump>
+  </known>
+  <known sys="Halo">
+   <jump>Dune</jump>
+   <jump>Pilatis</jump>
+  </known>
+  <known sys="Hasselt">
+   <planet>Hasselt II</planet>
+   <planet>Hasselt IV</planet>
+   <planet>Haurn</planet>
+   <planet>Phosarrus</planet>
+   <planet>Yak Station</planet>
+   <planet>Zhang Lu</planet>
+   <jump>Bonanza</jump>
+  </known>
+  <known sys="Hatter">
+   <planet>Facett Outpost</planet>
+   <planet>Gaula</planet>
+   <planet>Gaula Foods</planet>
+   <planet>Hatter I</planet>
+   <planet>Hatter II</planet>
+   <jump>Father's Pride</jump>
+   <jump>Khaas</jump>
+   <jump>Mizar</jump>
+   <jump>Sergio Vix</jump>
+  </known>
+  <known sys="Haven">
+   <planet>Haven</planet>
+   <jump>Daled</jump>
+   <jump>Gamel</jump>
+   <jump>New Haven</jump>
+  </known>
+  <known sys="Hekaras">
+   <planet>Hekaras III</planet>
+   <planet>Hekaras IV</planet>
+   <planet>Hurada</planet>
+   <planet>Three and a Half Kings</planet>
+   <planet>Vino</planet>
+   <jump>Apez</jump>
+   <jump>Zied</jump>
+  </known>
+  <known sys="Hephaestus">
+   <jump>Aneel Azi</jump>
+   <jump>Ryder</jump>
+  </known>
+  <known sys="Herakin">
+   <jump>Anrique</jump>
+   <jump>Eiderdown</jump>
+   <jump>Suna</jump>
+  </known>
+  <known sys="Humdrum">
+   <planet>Humdrum I</planet>
+   <planet>Humdrum II</planet>
+   <planet>Humdrum III</planet>
+   <jump>An'ku</jump>
+   <jump>Anarbalis</jump>
+   <jump>Modus Manis</jump>
+  </known>
+  <known sys="Infinity">
+   <planet>Infinity III</planet>
+   <planet>Infinity IV</planet>
+   <planet>Infinity VII</planet>
+   <planet>Ramen</planet>
+   <planet>Timu</planet>
+   <jump>Gruz</jump>
+   <jump>Maus</jump>
+  </known>
+  <known sys="Ingot">
+   <planet>Ingot I</planet>
+   <planet>Ulios</planet>
+   <jump>Toaxis</jump>
+  </known>
+  <known sys="Iris">
+   <jump>Basel</jump>
+   <jump>Oriantis</jump>
+   <jump>Percival</jump>
+  </known>
+  <known sys="Iroquois">
+   <jump>Cherokee</jump>
+   <jump>Mohawk</jump>
+   <jump>Navajo</jump>
+   <jump>Sioux</jump>
+  </known>
+  <known sys="Jackson">
+   <planet>Jackson II</planet>
+   <planet>Jackson V</planet>
+   <planet>Jomos</planet>
+   <planet>Paxadon</planet>
+   <planet>Zuner</planet>
+   <jump>Duros</jump>
+   <jump>Fulcrum</jump>
+   <jump>Pellmell</jump>
+  </known>
+  <known sys="Jade">
+   <planet>Jade Court</planet>
+   <planet>Jade I</planet>
+   <planet>Jade II</planet>
+   <planet>Jade III</planet>
+   <planet>Jade VI</planet>
+   <planet>Stormgard</planet>
+   <jump>Blackwell</jump>
+   <jump>Delta Polaris</jump>
+   <jump>Kobopos</jump>
+  </known>
+  <known sys="Jervis">
+   <planet>Jervis V</planet>
+   <planet>Jervis VII</planet>
+   <planet>Little Rock</planet>
+   <planet>Long Rock</planet>
+   <jump>Cerberus</jump>
+   <jump>Symm</jump>
+  </known>
+  <known sys="Jommel">
+   <jump>Point Zero</jump>
+   <jump>Stint</jump>
+  </known>
+  <known sys="Kansas">
+   <planet>Jankelo</planet>
+   <planet>Jemard</planet>
+   <planet>Kansas I</planet>
+   <planet>Kansas III</planet>
+   <planet>Kansas IV</planet>
+   <planet>Kansas VI</planet>
+   <planet>Shade &amp; Sunshine Station</planet>
+   <planet>Zalebus</planet>
+   <jump>Sylph</jump>
+  </known>
+  <known sys="Karman">
+   <planet>Atalanta</planet>
+   <planet>Karman I</planet>
+   <planet>Karman II</planet>
+   <jump>Chraan</jump>
+   <jump>Gyrios</jump>
+   <jump>Nougat</jump>
+  </known>
+  <known sys="Kelvos">
+   <jump>Mason</jump>
+   <jump>Wahri</jump>
+  </known>
+  <known sys="Khaas">
+   <jump>Diadem</jump>
+   <jump>Hatter</jump>
+  </known>
+  <known sys="Kilva">
+   <jump>Alvarron</jump>
+   <jump>Gregor</jump>
+   <jump>Myad</jump>
+   <jump>Starpoint</jump>
+  </known>
+  <known sys="Kiwi">
+   <planet>Forbes Station</planet>
+   <jump>Monogram</jump>
+   <jump>Neon</jump>
+   <jump>Pellmell</jump>
+  </known>
+  <known sys="Klantar">
+   <planet>Donnar</planet>
+   <planet>Klantar I</planet>
+   <planet>Klantar III</planet>
+   <planet>Nor</planet>
+   <planet>Tuur</planet>
+   <jump>Massia</jump>
+   <jump>Tarsus</jump>
+  </known>
+  <known sys="Kobopos">
+   <planet>Dun Hill</planet>
+   <planet>Kayel</planet>
+   <planet>Kobopos I</planet>
+   <planet>Kobopos IV</planet>
+   <jump>Jade</jump>
+  </known>
+  <known sys="Koralis">
+   <planet>Aillis</planet>
+   <planet>Fuzka</planet>
+   <planet>Koralis IV</planet>
+   <planet>Koralis VI</planet>
+   <planet>Luxsor</planet>
+   <planet>Paxsor</planet>
+   <jump>Gamma Polaris</jump>
+   <jump>Pastor</jump>
+   <jump>Qex</jump>
+  </known>
+  <known sys="Korma">
+   <jump>Eisenhorn</jump>
+   <jump>Fern</jump>
+   <jump>Penn</jump>
+  </known>
+  <known sys="Kraft">
+   <planet>Grindstone Shipyards</planet>
+   <planet>Kraft I</planet>
+   <planet>Kraft II</planet>
+   <planet>Kraft IV</planet>
+   <planet>Kraft V</planet>
+   <planet>Kraft VI</planet>
+   <planet>Simoen</planet>
+   <jump>Neon</jump>
+   <jump>Sorrow</jump>
+  </known>
+  <known sys="Kretogg">
+   <planet>Kretogg I</planet>
+   <planet>Kretogg II</planet>
+   <planet>Kretogg III</planet>
+   <planet>Vorca</planet>
+   <planet>Warden's End</planet>
+   <jump>Unicorn</jump>
+  </known>
+  <known sys="Ksher">
+   <planet>Ksher I</planet>
+   <planet>Ksher II</planet>
+   <planet>Ksher III</planet>
+   <planet>Qoman</planet>
+   <planet>Sola</planet>
+   <jump>Farizel</jump>
+   <jump>Sultan</jump>
+   <jump>Urbanus</jump>
+  </known>
+  <known sys="Kyo">
+   <planet>Berkhere</planet>
+   <planet>Khorin</planet>
+   <planet>Kyo III</planet>
+   <planet>Worscha</planet>
+   <jump>Druss</jump>
+   <jump>Tartan</jump>
+  </known>
+  <known sys="Lapis">
+   <planet>Lapis I</planet>
+   <planet>Lapis II</planet>
+   <jump>Anarbalis</jump>
+   <jump>Eye of Night</jump>
+   <jump>Lazuli</jump>
+   <jump>Niger</jump>
+  </known>
+  <known sys="Lazuli">
+   <planet>Chriik</planet>
+   <planet>Lazuli I</planet>
+   <planet>Lazuli III</planet>
+   <planet>Lazuli Ia</planet>
+   <jump>Lapis</jump>
+  </known>
+  <known sys="Limbo">
+   <planet>Jugreny</planet>
+   <planet>Limbo I</planet>
+   <planet>Limbo II</planet>
+   <planet>Malebolge</planet>
+   <jump>Fried</jump>
+   <jump>Gammacron</jump>
+   <jump>Provectus Nova</jump>
+   <jump>Pultatis</jump>
+  </known>
+  <known sys="Longbow">
+   <planet>Jaxheen</planet>
+   <planet>Longbow I</planet>
+   <planet>Longbow III</planet>
+   <planet>Longbow IV</planet>
+   <planet>Solvac Crops</planet>
+   <planet>Tummalin</planet>
+   <jump>Moor</jump>
+  </known>
+  <known sys="Malebolge">
+   <planet>Malebolge III</planet>
+   <planet>Malebolge IV</planet>
+   <planet>Malebolge V</planet>
+   <planet>Nocalin</planet>
+   <planet>Smaal</planet>
+   <jump>Bonanza</jump>
+   <jump>Neexi</jump>
+   <jump>Zintar</jump>
+  </known>
+  <known sys="Marat">
+   <jump>Amaroq</jump>
+   <jump>Unicorn</jump>
+  </known>
+  <known sys="Margarita">
+   <planet>Gorchenchev Shipyards</planet>
+   <planet>Lanze</planet>
+   <planet>Margarita I</planet>
+   <planet>Margarita II</planet>
+   <planet>Margarita IV</planet>
+   <jump>Porro</jump>
+  </known>
+  <known sys="Mason">
+   <planet>Mason I</planet>
+   <planet>Mason II</planet>
+   <planet>Mason IV</planet>
+   <planet>Vault</planet>
+   <jump>C-28</jump>
+   <jump>Kelvos</jump>
+  </known>
+  <known sys="Massia">
+   <planet>Arck</planet>
+   <planet>Duran Shipyard</planet>
+   <planet>Haldr</planet>
+   <planet>Massia I</planet>
+   <planet>Massia IV</planet>
+   <planet>Massia IVa</planet>
+   <planet>Sinclair</planet>
+   <jump>Klantar</jump>
+  </known>
+  <known sys="Maus">
+   <planet>Maus I</planet>
+   <planet>Maus II</planet>
+   <planet>Maus III</planet>
+   <planet>Maus Station</planet>
+   <planet>Megas</planet>
+   <jump>Awowa</jump>
+   <jump>Castellan</jump>
+   <jump>Infinity</jump>
+  </known>
+  <known sys="Merisi">
+   <planet>Merisi I</planet>
+   <planet>Merisi II</planet>
+   <planet>Merisi III</planet>
+   <planet>Merisi IV</planet>
+   <jump>Acheron</jump>
+   <jump>Borla</jump>
+  </known>
+  <known sys="Millstone">
+   <planet>Marauder Station</planet>
+   <planet>Omar</planet>
+   <planet>Sternguard</planet>
+   <jump>Druid</jump>
+   <jump>Gruz</jump>
+  </known>
+  <known sys="Mirror">
+   <planet>Gorgate</planet>
+   <planet>Mirror I</planet>
+   <planet>Mirror IV</planet>
+   <planet>Mirror VI</planet>
+   <planet>Mirror VIa</planet>
+   <planet>Mirror VIb</planet>
+   <planet>Olljan</planet>
+   <planet>Vargo's Flint</planet>
+   <planet>Vargo's Rock</planet>
+   <jump>Ulysses</jump>
+  </known>
+  <known sys="Mizar">
+   <planet>Ahmed</planet>
+   <planet>Mizar III</planet>
+   <planet>Mizar IV</planet>
+   <planet>Mizar VI</planet>
+   <planet>Westeros Station</planet>
+   <jump>Hatter</jump>
+   <jump>Possum</jump>
+  </known>
+  <known sys="Modus Manis">
+   <planet>Manis</planet>
+   <planet>Modus</planet>
+   <jump>Humdrum</jump>
+   <jump>Tarmak</jump>
+   <jump>Tartan</jump>
+   <jump>Willow</jump>
+  </known>
+  <known sys="Mohawk">
+   <planet>Paul 2</planet>
+   <jump>Cherokee</jump>
+   <jump>Iroquois</jump>
+  </known>
   <known sys="Monogram">
    <planet>Monogram III</planet>
    <planet>Monogram IV</planet>
@@ -848,10 +2104,6 @@
    <jump>Elza</jump>
    <jump>Hatter</jump>
   </known>
-  <known sys="Sevrea">
-   <jump>Raelid</jump>
-   <jump>Verivvius</jump>
-  </known>
   <known sys="Shakar">
    <planet>Nova Shakar</planet>
    <planet>Shakar I</planet>
@@ -947,10 +2199,11 @@
    <jump>Treacle</jump>
   </known>
   <known sys="Starpoint">
-   <planet>New Hesaya</planet>
    <planet>Starpoint</planet>
    <planet>Starpoint Shipyards</planet>
-   <planet>Touscha III</planet>
+   <planet>Touscha I</planet>
+   <planet>Touscha II</planet>
+   <planet>Touscha IV</planet>
    <jump>Antigone</jump>
    <jump>Kilva</jump>
    <jump>Undil</jump>
@@ -1242,10 +2495,6 @@
    <jump>Ginger</jump>
    <jump>Tarsus</jump>
   </known>
-  <known sys="Verivvius">
-   <jump>Sevrea</jump>
-   <jump>Zhett</jump>
-  </known>
   <known sys="Vlexon">
    <planet>Phee</planet>
    <planet>Ruid</planet>
@@ -1315,13 +2564,6 @@
   <known sys="Zerantix">
    <jump>Arandon</jump>
   </known>
-  <known sys="Zhett">
-   <planet>Aptitude Station</planet>
-   <planet>Zhett 16A5</planet>
-   <planet>Zhett 17B3</planet>
-   <planet>Zhett 17B9</planet>
-   <jump>Verivvius</jump>
-  </known>
   <known sys="Zied">
    <planet>Bon Sebb</planet>
    <planet>Sixbat Station</planet>
@@ -1344,1262 +2586,21 @@
    <jump>Arcanis</jump>
    <jump>Doeston</jump>
   </known>
-  <known sys="Kretogg">
-   <planet>Kretogg I</planet>
-   <planet>Kretogg II</planet>
-   <planet>Kretogg III</planet>
-   <planet>Vorca</planet>
-   <planet>Warden's End</planet>
-   <jump>Unicorn</jump>
-  </known>
-  <known sys="Ksher">
-   <planet>Ksher I</planet>
-   <planet>Ksher II</planet>
-   <planet>Ksher III</planet>
-   <planet>Qoman</planet>
-   <planet>Sola</planet>
-   <jump>Farizel</jump>
-   <jump>Sultan</jump>
-   <jump>Urbanus</jump>
-  </known>
-  <known sys="Kyo">
-   <planet>Berkhere</planet>
-   <planet>Khorin</planet>
-   <planet>Kyo III</planet>
-   <planet>Worscha</planet>
-   <jump>Druss</jump>
-   <jump>Tartan</jump>
-  </known>
-  <known sys="Lapis">
-   <planet>Lapis I</planet>
-   <planet>Lapis II</planet>
-   <jump>Anarbalis</jump>
-   <jump>Eye of Night</jump>
-   <jump>Lazuli</jump>
-   <jump>Niger</jump>
-  </known>
-  <known sys="Lazuli">
-   <planet>Chriik</planet>
-   <planet>Lazuli I</planet>
-   <planet>Lazuli III</planet>
-   <planet>Lazuli Ia</planet>
-   <jump>Lapis</jump>
-  </known>
-  <known sys="Limbo">
-   <planet>Jugreny</planet>
-   <planet>Limbo I</planet>
-   <planet>Limbo II</planet>
-   <planet>Malebolge</planet>
-   <jump>Fried</jump>
-   <jump>Gammacron</jump>
-   <jump>Provectus Nova</jump>
-   <jump>Pultatis</jump>
-  </known>
-  <known sys="Longbow">
-   <planet>Jaxheen</planet>
-   <planet>Longbow I</planet>
-   <planet>Longbow III</planet>
-   <planet>Longbow IV</planet>
-   <planet>Solvac Crops</planet>
-   <planet>Tummalin</planet>
-   <jump>Moor</jump>
-  </known>
-  <known sys="Malebolge">
-   <planet>Malebolge III</planet>
-   <planet>Malebolge IV</planet>
-   <planet>Malebolge V</planet>
-   <planet>Nocalin</planet>
-   <planet>Smaal</planet>
-   <jump>Bonanza</jump>
-   <jump>Neexi</jump>
-   <jump>Zintar</jump>
-  </known>
-  <known sys="Marat">
-   <jump>Amaroq</jump>
-   <jump>Unicorn</jump>
-  </known>
-  <known sys="Margarita">
-   <planet>Gorchenchev Shipyards</planet>
-   <planet>Lanze</planet>
-   <planet>Margarita I</planet>
-   <planet>Margarita II</planet>
-   <planet>Margarita IV</planet>
-   <jump>Porro</jump>
-  </known>
-  <known sys="Mason">
-   <planet>Mason I</planet>
-   <planet>Mason II</planet>
-   <planet>Mason IV</planet>
-   <planet>Vault</planet>
-   <jump>C-28</jump>
-   <jump>Kelvos</jump>
-  </known>
-  <known sys="Massia">
-   <planet>Arck</planet>
-   <planet>Duran Shipyard</planet>
-   <planet>Haldr</planet>
-   <planet>Massia I</planet>
-   <planet>Massia IV</planet>
-   <planet>Massia IVa</planet>
-   <planet>Sinclair</planet>
-   <jump>Klantar</jump>
-  </known>
-  <known sys="Maus">
-   <planet>Maus I</planet>
-   <planet>Maus II</planet>
-   <planet>Maus III</planet>
-   <planet>Maus Station</planet>
-   <planet>Megas</planet>
-   <jump>Awowa</jump>
-   <jump>Castellan</jump>
-   <jump>Infinity</jump>
-  </known>
-  <known sys="Merisi">
-   <planet>Merisi I</planet>
-   <planet>Merisi II</planet>
-   <planet>Merisi III</planet>
-   <planet>Merisi IV</planet>
-   <jump>Acheron</jump>
-   <jump>Borla</jump>
-  </known>
-  <known sys="Millstone">
-   <planet>Marauder Station</planet>
-   <planet>Omar</planet>
-   <planet>Sternguard</planet>
-   <jump>Druid</jump>
-   <jump>Gruz</jump>
-  </known>
-  <known sys="Mirror">
-   <planet>Gorgate</planet>
-   <planet>Mirror I</planet>
-   <planet>Mirror IV</planet>
-   <planet>Mirror VI</planet>
-   <planet>Mirror VIa</planet>
-   <planet>Mirror VIb</planet>
-   <planet>Olljan</planet>
-   <planet>Vargo's Flint</planet>
-   <planet>Vargo's Rock</planet>
-   <jump>Ulysses</jump>
-  </known>
-  <known sys="Mizar">
-   <planet>Ahmed</planet>
-   <planet>Mizar III</planet>
-   <planet>Mizar IV</planet>
-   <planet>Mizar VI</planet>
-   <planet>Westeros Station</planet>
-   <jump>Hatter</jump>
-   <jump>Possum</jump>
-  </known>
-  <known sys="Modus Manis">
-   <planet>Manis</planet>
-   <planet>Modus</planet>
-   <jump>Humdrum</jump>
-   <jump>Tarmak</jump>
-   <jump>Tartan</jump>
-   <jump>Willow</jump>
-  </known>
-  <known sys="Mohawk">
-   <planet>Paul 2</planet>
-   <jump>Cherokee</jump>
-   <jump>Iroquois</jump>
-  </known>
-  <known sys="Kelvos">
-   <jump>Mason</jump>
-   <jump>Wahri</jump>
-  </known>
-  <known sys="Khaas">
-   <jump>Diadem</jump>
-   <jump>Hatter</jump>
-  </known>
-  <known sys="Kilva">
-   <jump>Alvarron</jump>
-   <jump>Gregor</jump>
-   <jump>Myad</jump>
-   <jump>Starpoint</jump>
-  </known>
-  <known sys="Kiwi">
-   <planet>Forbes Station</planet>
-   <jump>Monogram</jump>
-   <jump>Neon</jump>
-   <jump>Pellmell</jump>
-  </known>
-  <known sys="Klantar">
-   <planet>Donnar</planet>
-   <planet>Klantar I</planet>
-   <planet>Klantar III</planet>
-   <planet>Nor</planet>
-   <planet>Tuur</planet>
-   <jump>Massia</jump>
-   <jump>Tarsus</jump>
-  </known>
-  <known sys="Kobopos">
-   <planet>Dun Hill</planet>
-   <planet>Kayel</planet>
-   <planet>Kobopos I</planet>
-   <planet>Kobopos IV</planet>
-   <jump>Jade</jump>
-  </known>
-  <known sys="Koralis">
-   <planet>Aillis</planet>
-   <planet>Fuzka</planet>
-   <planet>Koralis IV</planet>
-   <planet>Koralis VI</planet>
-   <planet>Luxsor</planet>
-   <planet>Paxsor</planet>
-   <jump>Gamma Polaris</jump>
-   <jump>Pastor</jump>
-   <jump>Qex</jump>
-  </known>
-  <known sys="Korma">
-   <jump>Eisenhorn</jump>
-   <jump>Fern</jump>
-   <jump>Penn</jump>
-  </known>
-  <known sys="Kraft">
-   <planet>Grindstone Shipyards</planet>
-   <planet>Kraft I</planet>
-   <planet>Kraft II</planet>
-   <planet>Kraft IV</planet>
-   <planet>Kraft V</planet>
-   <planet>Kraft VI</planet>
-   <planet>Simoen</planet>
-   <jump>Neon</jump>
-   <jump>Sorrow</jump>
-  </known>
-  <known sys="Hekaras">
-   <planet>Hekaras III</planet>
-   <planet>Hekaras IV</planet>
-   <planet>Hurada</planet>
-   <planet>Three and a Half Kings</planet>
-   <planet>Vino</planet>
-   <jump>Apez</jump>
-   <jump>Zied</jump>
-  </known>
-  <known sys="Hephaestus">
-   <jump>Aneel Azi</jump>
-   <jump>Ryder</jump>
-  </known>
-  <known sys="Herakin">
-   <jump>Anrique</jump>
-   <jump>Eiderdown</jump>
-   <jump>Suna</jump>
-  </known>
-  <known sys="Humdrum">
-   <planet>Humdrum I</planet>
-   <planet>Humdrum II</planet>
-   <planet>Humdrum III</planet>
-   <jump>An'ku</jump>
-   <jump>Anarbalis</jump>
-   <jump>Modus Manis</jump>
-  </known>
-  <known sys="Infinity">
-   <planet>Infinity III</planet>
-   <planet>Infinity IV</planet>
-   <planet>Infinity VII</planet>
-   <planet>Ramen</planet>
-   <planet>Timu</planet>
-   <jump>Gruz</jump>
-   <jump>Maus</jump>
-  </known>
-  <known sys="Ingot">
-   <planet>Ingot I</planet>
-   <planet>Ulios</planet>
-   <jump>Toaxis</jump>
-  </known>
-  <known sys="Iris">
-   <jump>Basel</jump>
-   <jump>Oriantis</jump>
-   <jump>Percival</jump>
-  </known>
-  <known sys="Iroquois">
-   <jump>Cherokee</jump>
-   <jump>Mohawk</jump>
-   <jump>Navajo</jump>
-   <jump>Sioux</jump>
-  </known>
-  <known sys="Jackson">
-   <planet>Jackson II</planet>
-   <planet>Jackson V</planet>
-   <planet>Jomos</planet>
-   <planet>Paxadon</planet>
-   <planet>Zuner</planet>
-   <jump>Duros</jump>
-   <jump>Fulcrum</jump>
-   <jump>Pellmell</jump>
-  </known>
-  <known sys="Jade">
-   <planet>Jade Court</planet>
-   <planet>Jade I</planet>
-   <planet>Jade II</planet>
-   <planet>Jade III</planet>
-   <planet>Jade VI</planet>
-   <planet>Stormgard</planet>
-   <jump>Blackwell</jump>
-   <jump>Delta Polaris</jump>
-   <jump>Kobopos</jump>
-  </known>
-  <known sys="Jervis">
-   <planet>Jervis V</planet>
-   <planet>Jervis VII</planet>
-   <planet>Little Rock</planet>
-   <planet>Long Rock</planet>
-   <jump>Cerberus</jump>
-   <jump>Symm</jump>
-  </known>
-  <known sys="Jommel">
-   <jump>Point Zero</jump>
-   <jump>Stint</jump>
-  </known>
-  <known sys="Kansas">
-   <planet>Jankelo</planet>
-   <planet>Jemard</planet>
-   <planet>Kansas I</planet>
-   <planet>Kansas III</planet>
-   <planet>Kansas IV</planet>
-   <planet>Kansas VI</planet>
-   <planet>Shade &amp; Sunshine Station</planet>
-   <planet>Zalebus</planet>
-   <jump>Sylph</jump>
-  </known>
-  <known sys="Karman">
-   <planet>Atalanta</planet>
-   <planet>Karman I</planet>
-   <planet>Karman II</planet>
-   <jump>Chraan</jump>
-   <jump>Gyrios</jump>
-   <jump>Nougat</jump>
-  </known>
-  <known sys="Delta Pavonis">
-   <planet>Caladan</planet>
-   <planet>Delta Pavonis I</planet>
-   <planet>Delta Pavonis II</planet>
-   <planet>Delta Pavonis IIa</planet>
-   <planet>Nappi</planet>
-   <planet>Ridrack</planet>
-   <planet>Seanich</planet>
-   <jump>Alteris</jump>
-   <jump>Cygnus</jump>
-   <jump>Goddard</jump>
-  </known>
-  <known sys="Delta Polaris">
-   <planet>Benteen</planet>
-   <planet>Bolero</planet>
-   <planet>Delta Polaris I</planet>
-   <planet>Delta Polaris II</planet>
-   <planet>Delta Polaris VI</planet>
-   <planet>Falas</planet>
-   <jump>Jade</jump>
-   <jump>Zemur</jump>
-  </known>
-  <known sys="Dendria">
-   <jump>Babylon</jump>
-   <jump>Diadem</jump>
-   <jump>Dust</jump>
-   <jump>Titus</jump>
-  </known>
-  <known sys="Diadem">
-   <planet>Diadem I</planet>
-   <planet>Diadem II</planet>
-   <planet>Leo</planet>
-   <planet>Riun</planet>
-   <jump>Dendria</jump>
-   <jump>Khaas</jump>
-   <jump>Solene</jump>
-  </known>
-  <known sys="Doeston">
-   <planet>Cerberus</planet>
-   <planet>Doeston Prime</planet>
-   <jump>Arandon</jump>
-   <jump>Behar</jump>
-   <jump>Myad</jump>
-   <jump>Toros</jump>
-   <jump>Zylex</jump>
-  </known>
-  <known sys="Dohriabi">
-   <planet>Dohriabi Prime</planet>
-   <planet>Niflheim</planet>
-   <jump>Overture</jump>
-  </known>
-  <known sys="Doranthex">
-   <planet>Doranthex Prime</planet>
-   <planet>Doranthex Secundus</planet>
-   <planet>Secundus Alpha</planet>
-   <planet>Secundus Beta</planet>
-   <jump>Dakron</jump>
-   <jump>Ogat</jump>
-   <jump>Tarsus</jump>
-   <jump>Torg</jump>
-   <jump>Tuoladis</jump>
-  </known>
-  <known sys="Draconis">
-   <planet>Draconis Alpha</planet>
-   <planet>Draconis Beta</planet>
-   <planet>Draconis Delta</planet>
-   <planet>Draconis Epsilon</planet>
-   <planet>Draconis Gamma</planet>
-   <planet>Draconis Omega</planet>
-   <planet>Zabween</planet>
-   <jump>Tau Prime</jump>
-  </known>
-  <known sys="Draygar">
-   <planet>Anecu</planet>
-   <planet>Draygar III</planet>
-   <planet>Durumdra</planet>
-   <planet>Hikatalat</planet>
-   <planet>INSS-3</planet>
-   <planet>Varona</planet>
-   <jump>Tau Prime</jump>
-  </known>
-  <known sys="Druid">
-   <jump>Fidelis</jump>
-   <jump>Millstone</jump>
-   <jump>Peter</jump>
-  </known>
-  <known sys="Druss">
-   <planet>Druss II</planet>
-   <planet>Druss III</planet>
-   <planet>Druss IIa</planet>
-   <planet>Gath Station</planet>
-   <planet>Lora-Mor</planet>
-   <planet>Samell</planet>
-   <jump>Kyo</jump>
-   <jump>Ruttwi</jump>
-   <jump>Valur Gem</jump>
-  </known>
-  <known sys="Dune">
-   <planet>Arrakis</planet>
-   <planet>Nixa</planet>
-   <planet>Vert</planet>
-   <jump>Eridani</jump>
-   <jump>Gamel</jump>
-   <jump>Halo</jump>
-  </known>
-  <known sys="Duros">
-   <planet>Duros I</planet>
-   <planet>Duros Ia</planet>
-   <planet>Trevis Station</planet>
-   <jump>Fulcrum</jump>
-   <jump>Jackson</jump>
-   <jump>Palovi</jump>
-  </known>
-  <known sys="Dust">
-   <planet>Dust</planet>
-   <jump>Dendria</jump>
-   <jump>Forlat</jump>
-  </known>
-  <known sys="Dvaer">
-   <planet>Dvaer II</planet>
-   <planet>Dvaer III</planet>
-   <planet>Dvaer IIIa</planet>
-   <planet>Dvaer IV</planet>
-   <planet>Dvaer Prime</planet>
-   <planet>Dvaered High Command</planet>
-   <planet>Eist Shipyard</planet>
-   <planet>Laarss</planet>
-   <jump>Beeklo</jump>
-   <jump>Gremlin</jump>
-   <jump>Radix</jump>
-   <jump>Urbanus</jump>
-  </known>
-  <known sys="Eiderdown">
-   <planet>Adrian</planet>
-   <planet>Eiderdown I</planet>
-   <planet>Eiderdown III</planet>
-   <planet>Ember</planet>
-   <planet>Forge</planet>
-   <jump>Churchill</jump>
-   <jump>Gilligan's Tomb</jump>
-   <jump>Herakin</jump>
-   <jump>Palovi</jump>
-  </known>
-  <known sys="Eisenhorn">
-   <jump>Korma</jump>
-   <jump>Qellan</jump>
-   <jump>Sorrow</jump>
-  </known>
-  <known sys="Elixir">
-   <planet>Elixir I</planet>
-   <jump>Bastion</jump>
-   <jump>Titus</jump>
-  </known>
-  <known sys="Elza">
-   <planet>Elza I</planet>
-   <planet>Elza III</planet>
-   <planet>Elza Ia</planet>
-   <planet>Oring</planet>
-   <jump>Babylon</jump>
-   <jump>Moordra</jump>
-   <jump>Sergio Vix</jump>
-  </known>
-  <known sys="Eneguoz">
-   <planet>Eneguoz II</planet>
-   <planet>Oma</planet>
-   <planet>Opa</planet>
-   <planet>Shiarta</planet>
-   <jump>Hakoi</jump>
-   <jump>Qex</jump>
-  </known>
-  <known sys="Eridani">
-   <planet>Eridani II</planet>
-   <planet>Eridani III</planet>
-   <planet>Selphod</planet>
-   <planet>The Crucible</planet>
-   <jump>Alteris</jump>
-   <jump>Dune</jump>
-  </known>
-  <known sys="Esker">
-   <planet>Esker I</planet>
-   <planet>Esker II</planet>
-   <planet>Esker IV</planet>
-   <planet>Fyruse Station</planet>
-   <planet>Madria</planet>
-   <planet>Suoer</planet>
-   <jump>Gutter</jump>
-   <jump>Nougat</jump>
-   <jump>Scarlet</jump>
-  </known>
-  <known sys="Euler">
-   <planet>Euler I</planet>
-   <planet>Euler II</planet>
-   <planet>Euler III</planet>
-   <planet>Euler IIIa</planet>
-   <planet>Euler IV</planet>
-   <planet>Euler Ia</planet>
-   <jump>Narousse</jump>
-  </known>
-  <known sys="Eye of Night">
-   <planet>Eye of Night I</planet>
-   <planet>Eye of Night II</planet>
-   <planet>Eye of Night III</planet>
-   <planet>Inios Station</planet>
-   <planet>Traal</planet>
-   <jump>Fidelis</jump>
-   <jump>Lapis</jump>
-   <jump>Ruttwi</jump>
-  </known>
-  <known sys="Farizel">
-   <planet>Baba Yaga</planet>
-   <planet>Damphyr</planet>
-   <planet>Morgan Station</planet>
-   <planet>Oni</planet>
-   <planet>Worgen</planet>
-   <jump>Castellan</jump>
-   <jump>Ksher</jump>
-   <jump>Radix</jump>
-   <jump>Vandal</jump>
-  </known>
-  <known sys="Father's Pride">
-   <planet>Father's Pride I</planet>
-   <planet>Father's Pride II</planet>
-   <planet>Father's Pride III</planet>
-   <planet>Flach</planet>
-   <planet>Hartwell Station</planet>
-   <planet>Rudderfern</planet>
-   <jump>Gewirn</jump>
-   <jump>Hatter</jump>
-   <jump>Shikima</jump>
-  </known>
-  <known sys="Faust">
-   <planet>Faust III</planet>
-   <planet>Faust VI</planet>
-   <planet>PSO 2345</planet>
-   <jump>Allous</jump>
-   <jump>PSO</jump>
-   <jump>Sagittarius Prime</jump>
-   <jump>Sultan</jump>
-  </known>
-  <known sys="Felzen">
-   <jump>Sagittarius Prime</jump>
-   <jump>Sarrii</jump>
-  </known>
-  <known sys="Fern">
-   <jump>Korma</jump>
-  </known>
-  <known sys="Feye">
-   <planet>Feye I</planet>
-   <planet>Feye IV</planet>
-   <planet>Kataka</planet>
-   <planet>Memory of Sorom</planet>
-   <planet>Neurri</planet>
-   <jump>Cerberus</jump>
-   <jump>Pisces Prime</jump>
-   <jump>Uridhrion</jump>
-  </known>
-  <known sys="Fidelis">
-   <planet>Fidelis III</planet>
-   <planet>Fidelis IV</planet>
-   <planet>Mannannan</planet>
-   <planet>Petaat</planet>
-   <jump>Druid</jump>
-   <jump>Eye of Night</jump>
-  </known>
-  <known sys="Forlat">
-   <jump>Dust</jump>
-   <jump>Muran</jump>
-   <jump>Wahri</jump>
-  </known>
-  <known sys="Fortitude">
-   <planet>Fortitude I</planet>
-   <planet>Fortitude II</planet>
-   <planet>Fortitude III</planet>
-   <planet>Omega Station</planet>
-   <jump>Acheron</jump>
-   <jump>Hades</jump>
-   <jump>Polack</jump>
-   <jump>Pontus</jump>
-  </known>
-  <known sys="Fried">
-   <planet>Claudius Mehan</planet>
-   <planet>Fried I</planet>
-   <planet>Fried II</planet>
-   <planet>Fried III</planet>
-   <planet>Fried IIIa</planet>
-   <planet>Fried Ia</planet>
-   <jump>Gold</jump>
-   <jump>Limbo</jump>
-  </known>
-  <known sys="Fulcrum">
-   <planet>Ferrungir</planet>
-   <planet>Fulcrum I</planet>
-   <jump>Duros</jump>
-   <jump>Gyrios</jump>
-   <jump>Jackson</jump>
-  </known>
-  <known sys="Fury">
-   <planet>Fury I</planet>
-   <jump>Bastion</jump>
-  </known>
-  <known sys="Gamel">
-   <jump>Andres</jump>
-   <jump>Bastion</jump>
-   <jump>Coriolis</jump>
-   <jump>Dune</jump>
-   <jump>Haven</jump>
-  </known>
-  <known sys="Gammacron">
-   <planet>Gammacron IV</planet>
-   <planet>Gammacron V</planet>
-   <planet>Gammacron Va</planet>
-   <planet>Gammacron Vb</planet>
-   <planet>Pund</planet>
-   <jump>Daan</jump>
-   <jump>Limbo</jump>
-   <jump>Zied</jump>
-  </known>
-  <known sys="Gamma Polaris">
-   <planet>Emperor's Fist</planet>
-   <planet>Emperor's Wrath</planet>
-   <planet>Halir</planet>
-   <planet>New Deimos</planet>
-   <planet>New Mars</planet>
-   <planet>New Phobos</planet>
-   <planet>New Pluto</planet>
-   <planet>Polaris Prime</planet>
-   <planet>Vuere</planet>
-   <jump>Apez</jump>
-   <jump>Koralis</jump>
-   <jump>Qex</jump>
-   <jump>Shakar</jump>
-   <jump>Sirou</jump>
-  </known>
-  <known sys="Gewirn">
-   <planet>Charcoal</planet>
-   <planet>Gewirn IV</planet>
-   <planet>Jasmine</planet>
-   <jump>Father's Pride</jump>
-   <jump>Point Zero</jump>
-  </known>
-  <known sys="Gilligan's Light">
-   <planet>Dawn</planet>
-   <planet>Dusk</planet>
-   <planet>Gilligan's Light III</planet>
-   <planet>The Frontier Council</planet>
-   <jump>Theras</jump>
-  </known>
-  <known sys="Gilligan's Memory">
-   <planet>Gilligan's Memory</planet>
-   <planet>Zero-Eleven</planet>
-   <planet>Zero-Five</planet>
-   <planet>Zero-One</planet>
-   <jump>Tarmak</jump>
-  </known>
-  <known sys="Gilligan's Tomb">
-   <planet>Gilligan's Tomb</planet>
-   <jump>Adraia</jump>
-   <jump>Brendon</jump>
-   <jump>Eiderdown</jump>
-  </known>
-  <known sys="Ginger">
-   <planet>Buritt</planet>
-   <planet>Ginger II</planet>
-   <planet>Ginger III</planet>
-   <planet>Ullnorn</planet>
-   <jump>Awowa</jump>
-   <jump>Verex</jump>
-  </known>
-  <known sys="Goddard">
-   <planet>Geron</planet>
-   <planet>Goddard III</planet>
-   <planet>Goddard IV</planet>
-   <planet>Imk</planet>
-   <planet>Manuel Station</planet>
-   <planet>Zhiru</planet>
-   <jump>Arcturus</jump>
-   <jump>Delta Pavonis</jump>
-   <jump>Ogat</jump>
-  </known>
-  <known sys="Gold">
-   <jump>Fried</jump>
-   <jump>Sheffield</jump>
-  </known>
-  <known sys="Gregor">
-   <jump>Arcanis</jump>
-   <jump>Kilva</jump>
-  </known>
-  <known sys="Gremlin">
-   <jump>Daravon</jump>
-   <jump>Dvaer</jump>
-  </known>
-  <known sys="Griffin">
-   <planet>Griffin  II</planet>
-   <planet>Griffin I</planet>
-   <planet>Griffin III</planet>
-   <planet>Griffin VI</planet>
-   <planet>Sander</planet>
-   <jump>Yarn</jump>
-  </known>
-  <known sys="Gruz">
-   <planet>Brock</planet>
-   <planet>Gruz I</planet>
-   <planet>Gruz II</planet>
-   <planet>Gruz III</planet>
-   <planet>Tora</planet>
-   <jump>Infinity</jump>
-   <jump>Millstone</jump>
-   <jump>Palin</jump>
-  </known>
-  <known sys="Gutter">
-   <planet>Gutter I</planet>
-   <planet>Gutter III</planet>
-   <planet>Hurne Station</planet>
-   <planet>Janus Farming Station</planet>
-   <planet>Vennis</planet>
-   <jump>Esker</jump>
-   <jump>Tartan</jump>
-  </known>
-  <known sys="Gyrios">
-   <planet>Gyrios II</planet>
-   <planet>Gyrios IV</planet>
-   <planet>Gyrios V</planet>
-   <planet>Jaegnhild</planet>
-   <planet>Lapra</planet>
-   <planet>Uuries</planet>
-   <jump>Fulcrum</jump>
-   <jump>Karman</jump>
-  </known>
-  <known sys="Hades">
-   <jump>C-43</jump>
-   <jump>C-59</jump>
-   <jump>Fortitude</jump>
-  </known>
-  <known sys="Hadosh">
-   <planet>Daahrax</planet>
-   <planet>Hadosh II</planet>
-   <planet>Hadosh III</planet>
-   <planet>Hadosh IV</planet>
-   <planet>Hadosh Ia</planet>
-   <planet>Scorpion Station</planet>
-   <planet>Soromid Wards Gamma</planet>
-   <jump>Opal</jump>
-   <jump>Ram</jump>
-   <jump>Symm</jump>
-  </known>
-  <known sys="Haered">
-   <jump>Protera</jump>
-   <jump>Sol</jump>
-  </known>
-  <known sys="Hakoi">
-   <planet>Em 1</planet>
-   <planet>Em 2</planet>
-   <planet>Em 4</planet>
-   <planet>Em 5</planet>
-   <planet>INSS-1</planet>
-   <jump>Eneguoz</jump>
-   <jump>Salvador</jump>
-  </known>
-  <known sys="Haleb">
-   <planet>Haleb IV</planet>
-   <planet>Jorlan</planet>
-   <planet>Raglan Outpost</planet>
-   <jump>Slaccid</jump>
-   <jump>Theras</jump>
-   <jump>Triap</jump>
-  </known>
-  <known sys="Halo">
-   <jump>Dune</jump>
-   <jump>Pilatis</jump>
-  </known>
-  <known sys="Hasselt">
-   <planet>Hasselt II</planet>
-   <planet>Hasselt IV</planet>
-   <planet>Haurn</planet>
-   <planet>Phosarrus</planet>
-   <planet>Yak Station</planet>
-   <planet>Zhang Lu</planet>
-   <jump>Bonanza</jump>
-  </known>
-  <known sys="Hatter">
-   <planet>Facett Outpost</planet>
-   <planet>Gaula</planet>
-   <planet>Gaula Foods</planet>
-   <planet>Hatter I</planet>
-   <planet>Hatter II</planet>
-   <jump>Father's Pride</jump>
-   <jump>Khaas</jump>
-   <jump>Mizar</jump>
-   <jump>Sergio Vix</jump>
-  </known>
-  <known sys="Haven">
-   <planet>Haven</planet>
-   <jump>Daled</jump>
-   <jump>Gamel</jump>
-   <jump>New Haven</jump>
-  </known>
-  <known sys="Anrique">
-   <jump>Herakin</jump>
-  </known>
-  <known sys="Antigone">
-   <jump>Aneel Azi</jump>
-   <jump>Starpoint</jump>
-  </known>
-  <known sys="Apez">
-   <planet>Apez II</planet>
-   <planet>Apez V</planet>
-   <planet>Crylo</planet>
-   <planet>Dowue</planet>
-   <planet>Gem</planet>
-   <planet>Zeo</planet>
-   <jump>Gamma Polaris</jump>
-   <jump>Hekaras</jump>
-   <jump>Mural</jump>
-  </known>
-  <known sys="Arandon">
-   <jump>Doeston</jump>
-   <jump>Oriantis</jump>
-   <jump>Polaris</jump>
-   <jump>Zerantix</jump>
-  </known>
-  <known sys="Arcanis">
-   <jump>Gregor</jump>
+  <known sys="Sevrea">
    <jump>Raelid</jump>
-   <jump>Sigur</jump>
-   <jump>Zylex</jump>
+   <jump>Verivvius</jump>
   </known>
-  <known sys="Arcturus">
-   <planet>Antica</planet>
-   <planet>Arcturus Gamma</planet>
-   <planet>Arcturus I</planet>
-   <planet>Arcturus II</planet>
-   <planet>Brooks</planet>
-   <planet>Mouddar</planet>
-   <jump>Borla</jump>
-   <jump>Goddard</jump>
-   <jump>Mural</jump>
+  <known sys="Verivvius">
+   <jump>Sevrea</jump>
+   <jump>Zhett</jump>
   </known>
-  <known sys="Ariadus">
-   <planet>Ariadus II</planet>
-   <planet>Ariadus IV</planet>
-   <planet>Ariadus VI</planet>
-   <planet>Ariadus VIa</planet>
-   <planet>Ariadus VIb</planet>
-   <planet>Belltower Station</planet>
-   <planet>Janko</planet>
-   <planet>Magellan</planet>
-   <planet>Trichu</planet>
-   <jump>Amatiri</jump>
-  </known>
-  <known sys="Atlantis">
-   <planet>Atlantis I</planet>
-   <jump>Pike</jump>
-   <jump>Shickhaw</jump>
-   <jump>Sten</jump>
-  </known>
-  <known sys="Awowa">
-   <planet>Awowa IV</planet>
-   <planet>Awowa V</planet>
-   <planet>Odonga</planet>
-   <planet>Odonga m1</planet>
-   <jump>Ginger</jump>
-   <jump>Maus</jump>
-  </known>
-  <known sys="Babylon">
-   <planet>Babylon I</planet>
-   <planet>Babylon II</planet>
-   <planet>Babylon IIa</planet>
-   <planet>Scipio</planet>
-   <jump>Dendria</jump>
-   <jump>Elza</jump>
-  </known>
-  <known sys="Baf">
-   <planet>BGG-1356</planet>
-   <planet>Baf I</planet>
-   <planet>Baf IV</planet>
-   <planet>Dumas Station</planet>
-   <planet>MGG-1294</planet>
-   <jump>Beeklo</jump>
-  </known>
-  <known sys="Basel">
-   <planet>Basel I</planet>
-   <planet>Sorom</planet>
-   <planet>Vigil Station</planet>
-   <jump>Iris</jump>
-  </known>
-  <known sys="Bastion">
-   <jump>Elixir</jump>
-   <jump>Fury</jump>
-   <jump>Gamel</jump>
-  </known>
-  <known sys="Beeklo">
-   <planet>Adham</planet>
-   <planet>Beeklo II</planet>
-   <planet>Diabolos</planet>
-   <planet>Icarus</planet>
-   <planet>Totoran</planet>
-   <jump>Baf</jump>
-   <jump>Darkstone</jump>
-   <jump>Dvaer</jump>
-  </known>
-  <known sys="Behar">
-   <jump>Doeston</jump>
-   <jump>Sigur</jump>
-  </known>
-  <known sys="Blackwell">
-   <planet>Blackwell I</planet>
-   <planet>Blackwell IIX</planet>
-   <planet>Blackwell VII</planet>
-   <planet>Colley</planet>
-   <planet>Slofeldt</planet>
-   <jump>Jade</jump>
-   <jump>Pastor</jump>
-  </known>
-  <known sys="Blunderbuss">
-   <planet>Blunderbuss II</planet>
-   <planet>DVNN Central</planet>
-   <planet>Greis</planet>
-   <planet>Onar</planet>
-   <planet>Utsuwa</planet>
-   <jump>Verex</jump>
-   <jump>Zied</jump>
-  </known>
-  <known sys="Bonanza">
-   <planet>Bonanza I</planet>
-   <planet>Bonanza II</planet>
-   <jump>Hasselt</jump>
-   <jump>Malebolge</jump>
-   <jump>Norn</jump>
-   <jump>Sylph</jump>
-  </known>
-  <known sys="Borla">
-   <jump>Arcturus</jump>
-   <jump>Merisi</jump>
-   <jump>Mural</jump>
-   <jump>Shakar</jump>
-  </known>
-  <known sys="Botarn">
-   <planet>Arashu</planet>
-   <planet>Botarn I</planet>
-   <planet>Dundrop Station</planet>
-   <jump>Monogram</jump>
-   <jump>Vanir</jump>
-  </known>
-  <known sys="Brendon">
-   <planet>Brendon I</planet>
-   <planet>Margot</planet>
-   <planet>Pokyos Station</planet>
-   <planet>Zazarin</planet>
-   <jump>Gilligan's Tomb</jump>
-   <jump>Toxin</jump>
-  </known>
-  <known sys="Brimstone">
-   <planet>Brimstone I</planet>
-   <planet>Brimstone II</planet>
-   <planet>Brimstone III</planet>
-   <planet>Brimstone Ia</planet>
-   <planet>Brimstone Ib</planet>
-   <planet>Nonuri</planet>
-   <jump>Andee</jump>
-   <jump>Aneel Azi</jump>
-   <jump>Shickhaw</jump>
-   <jump>Triap</jump>
-  </known>
-  <known sys="C-00">
-   <planet>P0125</planet>
-   <planet>S00000</planet>
-   <planet>S23001</planet>
-   <planet>S49588</planet>
-   <jump>C-14</jump>
-   <jump>C-28</jump>
-  </known>
-  <known sys="C-14">
-   <planet>P9234</planet>
-   <planet>S49281</planet>
-   <planet>S49335</planet>
-   <jump>C-00</jump>
-   <jump>C-43</jump>
-  </known>
-  <known sys="C-28">
-   <planet>P2020</planet>
-   <planet>P2021</planet>
-   <planet>P2022</planet>
-   <planet>S00018</planet>
-   <planet>S00522</planet>
-   <planet>S00653</planet>
-   <planet>S38729</planet>
-   <jump>C-00</jump>
-   <jump>C-59</jump>
-   <jump>Mason</jump>
-  </known>
-  <known sys="C-43">
-   <planet>Eiroik</planet>
-   <planet>S23491</planet>
-   <planet>S58309</planet>
-   <planet>S91456</planet>
-   <jump>C-14</jump>
-   <jump>C-59</jump>
-   <jump>Hades</jump>
-  </known>
-  <known sys="C-59">
-   <planet>P9122</planet>
-   <planet>S13024</planet>
-   <planet>S72288</planet>
-   <planet>S72839</planet>
-   <jump>C-28</jump>
-   <jump>C-43</jump>
-   <jump>Hades</jump>
-  </known>
-  <known sys="Capricorn">
-   <planet>Capricorn II</planet>
-   <planet>Capricorn III</planet>
-   <planet>Capricorn IIIa</planet>
-   <planet>Durea</planet>
-   <jump>Pontus</jump>
-   <jump>Rockbed</jump>
-  </known>
-  <known sys="Castellan">
-   <planet>Castellan Epsilon</planet>
-   <planet>Castellan I</planet>
-   <planet>Castellan III</planet>
-   <planet>Castellan VI</planet>
-   <planet>Dunmer</planet>
-   <planet>Leszec</planet>
-   <jump>Farizel</jump>
-   <jump>Maus</jump>
-  </known>
-  <known sys="Cerberus">
-   <planet>Cerberus I</planet>
-   <planet>Cerberus II</planet>
-   <planet>Cerberus IIa</planet>
-   <planet>Cerberus IV</planet>
-   <planet>Culex</planet>
-   <planet>Myonei</planet>
-   <planet>Soromid Databank</planet>
-   <jump>Feye</jump>
-   <jump>Jervis</jump>
-   <jump>Sergio Vix</jump>
-  </known>
-  <known sys="Cherokee">
-   <planet>Abandoned Station</planet>
-   <jump>Iroquois</jump>
-   <jump>Mohawk</jump>
-  </known>
-  <known sys="Chloe">
-   <jump>Polack</jump>
-   <jump>Wolf</jump>
-  </known>
-  <known sys="Chraan">
-   <jump>Karman</jump>
-   <jump>Nougat</jump>
-   <jump>Triap</jump>
-  </known>
-  <known sys="Churchill">
-   <planet>Churchill I</planet>
-   <planet>Churchill II</planet>
-   <planet>Churchill IIa</planet>
-   <planet>Lorelei</planet>
-   <planet>Ururis</planet>
-   <planet>Violin Station</planet>
-   <jump>Eiderdown</jump>
-   <jump>Muirat</jump>
-   <jump>Willow</jump>
-  </known>
-  <known sys="Coriolis">
-   <jump>Alteris</jump>
-   <jump>Gamel</jump>
-   <jump>Rockbed</jump>
-  </known>
-  <known sys="Corvus">
-   <planet>Corax</planet>
-   <planet>Corvus I</planet>
-   <planet>Corvus VI</planet>
-   <planet>Corvus VI-a</planet>
-   <planet>Corvus VI-b</planet>
-   <planet>Crow</planet>
-   <jump>Octantis</jump>
-   <jump>Regulus</jump>
-   <jump>Tandar</jump>
-  </known>
-  <known sys="Cygnus">
-   <planet>Cygnus IV</planet>
-   <planet>Hassak</planet>
-   <planet>Inca</planet>
-   <planet>Jaan</planet>
-   <planet>Maya</planet>
-   <planet>Torloth</planet>
-   <planet>Triton Station</planet>
-   <jump>Delta Pavonis</jump>
-  </known>
-  <known sys="Daan">
-   <jump>Daravon</jump>
-   <jump>Gammacron</jump>
-  </known>
-  <known sys="Dakron">
-   <planet>Dakron III</planet>
-   <planet>Dakron V</planet>
-   <planet>Shariff Station</planet>
-   <planet>Thar</planet>
-   <jump>Doranthex</jump>
-   <jump>Theras</jump>
-  </known>
-  <known sys="Daled">
-   <jump>Haven</jump>
-   <jump>Wahri</jump>
-  </known>
-  <known sys="Daravon">
-   <planet>Daravon I</planet>
-   <planet>Daravon III</planet>
-   <planet>Eclipse Station</planet>
-   <planet>Vilati Vilata</planet>
-   <jump>Daan</jump>
-   <jump>Gremlin</jump>
-   <jump>Perhelion</jump>
-   <jump>Pudas</jump>
-  </known>
-  <known sys="Darkstone">
-   <planet>Darkstone IV</planet>
-   <planet>Darkstone V</planet>
-   <planet>Sheik Hall</planet>
-   <planet>Stalwart Station</planet>
-   <planet>Varia</planet>
-   <jump>Beeklo</jump>
-   <jump>Verex</jump>
-  </known>
-  <known sys="Defa">
-   <jump>Oberon</jump>
-   <jump>Pilatis</jump>
-  </known>
-  <known sys="Acheron">
-   <jump>Fortitude</jump>
-   <jump>Merisi</jump>
-   <jump>Sikh</jump>
-  </known>
-  <known sys="Adraia">
-   <jump>Gilligan's Tomb</jump>
-   <jump>Ulysses</jump>
-   <jump>Vanir</jump>
-  </known>
-  <known sys="Aesir">
-   <planet>Aesir IV</planet>
-   <planet>Gayathi</planet>
-   <planet>Mutris</planet>
-   <planet>Sirius Ordnance</planet>
-   <planet>Sirius Shipyards</planet>
-   <planet>Urail</planet>
-   <jump>Vanir</jump>
-  </known>
-  <known sys="Allous">
-   <planet>Allous GG-3</planet>
-   <planet>Allous I</planet>
-   <planet>Allous II</planet>
-   <planet>Allous Station</planet>
-   <planet>Nanek</planet>
-   <jump>Faust</jump>
-   <jump>Palin</jump>
-   <jump>Suk</jump>
-  </known>
-  <known sys="Alteris">
-   <planet>Alteris I</planet>
-   <planet>Alteris IV</planet>
-   <planet>Alteris V</planet>
-   <planet>Darkshed</planet>
-   <planet>Ozogo X</planet>
-   <planet>Takeru</planet>
-   <jump>Coriolis</jump>
-   <jump>Delta Pavonis</jump>
-   <jump>Eridani</jump>
-   <jump>Sikh</jump>
-  </known>
-  <known sys="Alvarron">
-   <jump>Ingot</jump>
-   <jump>Kilva</jump>
-  </known>
-  <known sys="Amaroq">
-   <planet>Amaroq I</planet>
-   <planet>Amaroq III</planet>
-   <planet>PSO Moniter</planet>
-   <planet>Rhaana</planet>
-   <jump>Marat</jump>
-   <jump>PSO</jump>
-  </known>
-  <known sys="Amatiri">
-   <planet>Amatiri I</planet>
-   <planet>Amatiri II</planet>
-   <planet>Amatiri Ia</planet>
-   <jump>Ariadus</jump>
-   <jump>Sleuth</jump>
-  </known>
-  <known sys="Anarbalis">
-   <planet>Anarbalis II</planet>
-   <planet>Anarbalis III</planet>
-   <planet>Freshwater Station</planet>
-   <planet>Racheka</planet>
-   <planet>Racheka Secundus</planet>
-   <jump>Humdrum</jump>
-   <jump>Lapis</jump>
-  </known>
-  <known sys="Andee">
-   <planet>Andee II</planet>
-   <planet>Andee III</planet>
-   <planet>Andee IIIa</planet>
-   <planet>Andee IIa</planet>
-   <planet>Opal Station</planet>
-   <planet>Varaati</planet>
-   <jump>Brimstone</jump>
-  </known>
-  <known sys="Andres">
-   <jump>Gamel</jump>
-  </known>
-  <known sys="Aneel Azi">
-   <planet>Edergast</planet>
-   <jump>Antigone</jump>
-   <jump>Brimstone</jump>
-   <jump>Hephaestus</jump>
-  </known>
-  <known sys="Anger">
-   <planet>Anger I</planet>
-   <planet>Anger II</planet>
-   <planet>Rage</planet>
-   <jump>Ryder</jump>
-   <jump>Tormulex</jump>
-  </known>
-  <known sys="An'ku">
-   <planet>An'ku I</planet>
-   <planet>An'ku II</planet>
-   <planet>An'ku III</planet>
-   <planet>Eenerim</planet>
-   <planet>Sroolu</planet>
-   <planet>Tankard Station</planet>
-   <jump>Humdrum</jump>
-   <jump>Tarmak</jump>
+  <known sys="Zhett">
+   <planet>Aptitude Station</planet>
+   <planet>Sentinel One</planet>
+   <planet>Zhett 16A5</planet>
+   <planet>Zhett 17B3</planet>
+   <planet>Zhett 17B9</planet>
+   <jump>Verivvius</jump>
   </known>
  </space>
 </naev_save>
