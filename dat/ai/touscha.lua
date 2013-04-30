@@ -30,7 +30,7 @@ function create ()
       standing = ai.getstanding( p ) or -1
       mem.refuel = rnd.rnd( 1000, 3000 )
       if standing < 50 then
-         mem.refuel_no = "\"You are not worthy of my attention.\""
+         mem.refuel_no = "\"Get out of here, and quit begging.\""
       else
          mem.refuel_msg = string.format("\"For you I could make an exception for %d credits.\"", mem.refuel)
       end

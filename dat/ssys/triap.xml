@@ -31,5 +31,10 @@
    <autopos/>
    <hide>1.250000</hide>
   </jump>
+  <jump target="Khilian">
+   <autopos/>
+   <hidden/>
+   <hide>1.250000</hide>
+  </jump>
  </jumps>
 </ssys>

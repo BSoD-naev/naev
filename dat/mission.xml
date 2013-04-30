@@ -21,6 +21,7 @@
    <faction>Frontier</faction>
    <faction>Goddard</faction>
    <faction>Sirius</faction>
+   <faction>Touscha</faction>
   </avail>
  </mission>
  <mission name="Empire Rehabilitation">
@@ -71,6 +72,7 @@
    <faction>Frontier</faction>
    <faction>Goddard</faction>
    <faction>Sirius</faction>
+   <faction>Touscha</faction>
   </avail>
  </mission>
  <mission name="Empire Recruitment">
@@ -769,6 +771,15 @@
     <cond>player.pilot():ship():class() == "Yacht" and player.misnDone("Racing Skills 1")</cond>
    <chance>2</chance>
    <location>Bar</location>
+  </avail>
+ </mission>
+ <mission name="Mercenary Work">
+  <lua>touscha/touscha_std_bounty</lua>
+  <avail>
+   <priority>6</priority>
+   <chance>250</chance>
+   <location>Computer</location>
+   <faction>Touscha</faction>
   </avail>
  </mission>
 

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<asset name="Sentinel Two">
+ <pos>
+  <x>4061.942957</x>
+  <y>2269.225416</y>
+ </pos>
+ <GFX>
+  <space>station-battlestation.png</space>
+  <exterior>aquatic2.png</exterior>
+ </GFX>
+ <presence>
+  <faction>Touscha</faction>
+  <value>100.000000</value>
+  <range>2</range>
+ </presence>
+ <general>
+  <class>1</class>
+  <population>1500</population>
+  <hide>0.250000</hide>
+  <services>
+   <land/>
+   <refuel/>
+   <bar/>
+   <missions/>
+  </services>
+  <commodities/>
+  <description>Sentinel Two is a Touscha outpost.</description>
+  <bar>It's a bar.</bar>
+ </general>
+</asset>

@@ -16,6 +16,10 @@
   <asset>Rage</asset>
  </assets>
  <jumps>
+  <jump target="Faltar">
+   <autopos/>
+   <hide>1.250000</hide>
+  </jump>
   <jump target="Ryder">
    <autopos/>
    <hide>1.250000</hide>

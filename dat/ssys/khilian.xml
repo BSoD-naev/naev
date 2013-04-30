@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ssys name="Verivvius">
+<ssys name="Khilian">
  <general>
   <radius>10000.000000</radius>
   <stars>400</stars>
@@ -7,22 +7,26 @@
   <nebula volatility="0.000000">0.000000</nebula>
  </general>
  <pos>
-  <x>346.000000</x>
-  <y>-263.000000</y>
+  <x>592.800000</x>
+  <y>-300.600000</y>
  </pos>
- <assets/>
+ <assets>
+  <asset>Khilian I</asset>
+  <asset>Khilian II</asset>
+  <asset>Sentinel Two</asset>
+ </assets>
  <jumps>
+  <jump target="Antigone">
+   <autopos/>
+   <hide>1.250000</hide>
+  </jump>
   <jump target="Davrast">
    <autopos/>
+   <hide>1.250000</hide>
+  </jump>
+  <jump target="Triap">
+   <autopos/>
    <hidden/>
-   <hide>1.250000</hide>
-  </jump>
-  <jump target="Sevrea">
-   <autopos/>
-   <hide>1.250000</hide>
-  </jump>
-  <jump target="Zhett">
-   <autopos/>
    <hide>1.250000</hide>
   </jump>
  </jumps>

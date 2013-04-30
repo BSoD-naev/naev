@@ -6,35 +6,32 @@
  </version>
  <diffs/>
  <player name="mapexplore">
-  <rating>296.000000</rating>
-  <credits>99999976507110</credits>
+  <rating>452.000000</rating>
+  <credits>99999976585308</credits>
   <guiOverride>0</guiOverride>
   <mapOverlay>0</mapOverlay>
   <time>
    <SCU>603</SCU>
-   <STP>4055</STP>
-   <STU>9804</STU>
-   <Remainder>153.207973</Remainder>
+   <STP>4225</STP>
+   <STU>7910</STU>
+   <Remainder>826.767468</Remainder>
   </time>
-  <location>Starpoint</location>
-  <ship name="Peregrine" model="Touscha Peregrine">
-   <fuel>400.000000</fuel>
+  <location>Starpoint Shipyards</location>
+  <ship name="Vanguard" model="Touscha Vanguard">
+   <fuel>800.000000</fuel>
    <outfits_structure>
-    <outfit slot="0">Tricon Naga Mk12 Engine</outfit>
-    <outfit slot="1">Schafer &amp; Kane Light Stealth Plating</outfit>
-    <outfit slot="2">Improved Stabilizer</outfit>
-    <outfit slot="3">Improved Stabilizer</outfit>
+    <outfit slot="0">Tricon Centaur Mk8 Engine</outfit>
+    <outfit slot="1">Schafer &amp; Kane Medium Solar Plating</outfit>
    </outfits_structure>
    <outfits_utility>
-    <outfit slot="0">Milspec Orion 3702 Core System</outfit>
-    <outfit slot="1">Hellburner</outfit>
-    <outfit slot="2">Small Shield Booster</outfit>
+    <outfit slot="0">Milspec Orion 5502 Core System</outfit>
+    <outfit slot="1">Medium Shield Booster</outfit>
    </outfits_utility>
    <outfits_weapon>
-    <outfit slot="0">Razor MK3</outfit>
-    <outfit slot="1">Razor MK3</outfit>
-    <outfit slot="2">Razor MK3</outfit>
-    <outfit slot="3">Razor MK3</outfit>
+    <outfit slot="0">Razor Turret MK3</outfit>
+    <outfit slot="1">Razor Turret MK3</outfit>
+    <outfit slot="2">Razor Turret MK3</outfit>
+    <outfit slot="3">Razor Turret MK3</outfit>
    </outfits_weapon>
    <commodities/>
    <weaponsets autoweap="1" active_set="0">
@@ -51,22 +48,25 @@
    </weaponsets>
   </ship>
   <ships>
-   <ship name="Vanguard" model="Touscha Vanguard">
+   <ship name="Peregrine" model="Touscha Peregrine">
     <location>Starpoint Shipyards</location>
-    <fuel>800.000000</fuel>
+    <fuel>400.000000</fuel>
     <outfits_structure>
-     <outfit slot="0">Tricon Centaur Mk8 Engine</outfit>
-     <outfit slot="1">Schafer &amp; Kane Medium Solar Plating</outfit>
+     <outfit slot="0">Tricon Naga Mk12 Engine</outfit>
+     <outfit slot="1">Schafer &amp; Kane Light Combat Plating</outfit>
+     <outfit slot="2">Improved Stabilizer</outfit>
+     <outfit slot="3">Improved Stabilizer</outfit>
     </outfits_structure>
     <outfits_utility>
-     <outfit slot="0">Milspec Orion 5502 Core System</outfit>
-     <outfit slot="1">Medium Shield Booster</outfit>
+     <outfit slot="0">Milspec Orion 3702 Core System</outfit>
+     <outfit slot="1">Hellburner</outfit>
+     <outfit slot="2">Small Shield Booster</outfit>
     </outfits_utility>
     <outfits_weapon>
-     <outfit slot="0">Razor Turret MK3</outfit>
-     <outfit slot="1">Razor Turret MK3</outfit>
-     <outfit slot="2">Razor Turret MK3</outfit>
-     <outfit slot="3">Razor Turret MK3</outfit>
+     <outfit slot="0">Razor MK3</outfit>
+     <outfit slot="1">Razor MK3</outfit>
+     <outfit slot="2">Razor MK3</outfit>
+     <outfit slot="3">Razor MK3</outfit>
     </outfits_weapon>
     <commodities/>
     <weaponsets autoweap="1" active_set="0">
@@ -111,7 +111,7 @@
     </weaponsets>
    </ship>
    <ship name="Aunstrike" model="Sirius Shaman">
-    <location>Manuel Station</location>
+    <location>Starpoint Shipyards</location>
     <fuel>0.000000</fuel>
     <outfits_structure/>
     <outfits_utility/>
@@ -223,7 +223,7 @@
    <outfit quantity="1">Manufacturer Medium Engine</outfit>
    <outfit quantity="1">Unmodified Medium Hull</outfit>
    <outfit quantity="1">Tricon Naga Mk12 Engine</outfit>
-   <outfit quantity="1">Schafer &amp; Kane Light Combat Plating</outfit>
+   <outfit quantity="1">Schafer &amp; Kane Light Stealth Plating</outfit>
    <outfit quantity="1">Unicorp C-2 Light Plating</outfit>
    <outfit quantity="1">Unicorp KRD-B12 Engine</outfit>
    <outfit quantity="6">Manufacturer Small Engine</outfit>
@@ -253,26 +253,65 @@
   <done>Shipwreck</done>
  </events_done>
  <escorts/>
- <missions/>
+ <missions>
+  <mission data="Mercenary Work" id="212">
+   <title>Bounty on Luxury Yacht-class Independent ship</title>
+   <desc>Someone has placed a bounty on the ship known as the Hakoi Dawn, last seen in the Alvarron system.</desc>
+   <reward>30000 credits</reward>
+   <markers>
+    <marker id="0" type="0">Alvarron</marker>
+   </markers>
+   <cargos/>
+   <osd title="Mercenary work" nitems="2" active="0">
+    <msg>Head to Alvarron and take out the Hakoi Dawn.</msg>
+    <msg>Return to Starpoint Shipyards to recieve your payment.</msg>
+   </osd>
+   <claims/>
+   <lua>
+    <data type="string" name="misn_desc">Someone has placed a bounty on the ship known as the %s, last seen in the %s system.</data>
+    <data type="number" name="misn_marker1">0</data>
+    <data type="string" name="lang">en</data>
+    <data type="number" name="enter_hook">72</data>
+    <data type="number" name="misn_success">0</data>
+    <data type="string" name="misn_base">Starpoint Shipyards</data>
+    <data type="table" name="__hook_arg">
+     <data type="bool" name="__save">1</data>
+    </data>
+    <data type="number" name="ship_reward">30000</data>
+    <data type="string" name="ship_type">Independent Gawain</data>
+    <data type="number" name="flag">0</data>
+    <data type="string" name="ship_name">Hakoi Dawn</data>
+    <data type="string" name="ship_base">Gawain</data>
+    <data type="string" name="ship_class">Luxury Yacht</data>
+    <data type="string" name="ship_faction">Independent</data>
+    <data type="system" name="ship_sys">Alvarron</data>
+    <data type="number" name="count">34</data>
+    <data type="string" name="misn_title">Bounty on %s-class %s ship</data>
+    <data type="string" name="misn_reward">%d credits</data>
+    <data type="string" name="_VERSION">Lua 5.1</data>
+   </lua>
+  </mission>
+ </missions>
  <events/>
  <news>
-  <article title="Welcome to the Starpoint News Center." desc="News that's relavant to you." faction="Touscha" date="50000000000005" date_to_rm="50000000000005" id="1754"/>
-  <article title="Welcome to the Dvaered News Centre. All that happens. In simple words. So you can understand." desc="" faction="Dvaered" date="50000000000005" date_to_rm="50000000000005" id="1706"/>
-  <article title="Welcome to the Empire News Centre." desc="Fresh news from around the Empire." faction="Empire" date="50000000000005" date_to_rm="50000000000005" id="1319"/>
-  <article title="Welcome to Goddard News Centre. We bring you the news from around the Empire." desc="" faction="Goddard" date="50000000000005" date_to_rm="50000000000005" id="1091"/>
-  <article title="Pirate News. News that matters." desc="Laughing at the Emperor." faction="Pirate" date="50000000000005" date_to_rm="50000000000005" id="372"/>
+  <article title="Welcome to the Starpoint News Center." desc="Info that's actually useful." faction="Touscha" date="50000000000005" date_to_rm="50000000000005" id="2257"/>
+  <article title="News from the Frontier Alliance." desc="News you can trust." faction="Frontier" date="50000000000005" date_to_rm="50000000000005" id="1893"/>
   <article title="Sirius News Reel. Words of the Sirichana for all." desc="Stay faithful." faction="Sirius" date="50000000000005" date_to_rm="50000000000005" id="517"/>
-  <article title="News from the Frontier Alliance." desc="News you can trust." faction="Frontier" date="50000000000005" date_to_rm="50000000000005" id="522"/>
-  <article title="Welcome to Universal News Feed. All the headlines all the time." desc="" faction="Independent" date="50000000000005" date_to_rm="50000000000005" id="1003"/>
-  <article title="The Case for Sex" desc="Though cloning rates continue to rise, Vlad Taneev believes we can still benefit from genetic recombination. &quot;Lady chance is more creative than we,&quot; says the famous gene splicer." faction="Generic" date="0" date_to_rm="500000000000000" id="1757"/>
-  <article title="The Goddard Exception" desc="Why has a community with more expertise sailing than flying produced the Empire's elite civilian spacecraft?  Lord Warthon says the secret lies in his family's hands-on tradition of leadership." faction="Generic" date="0" date_to_rm="500000000000000" id="1756"/>
-  <article title="Experiment Produces Cold Fusion" desc="In an interview with Bleeding Edge anchor McKenzie Kruft, a researcher at Eureka labs says he has produced a tabletop atomic reaction. He hopes to publish his results in a science journal later this year." faction="Generic" date="0" date_to_rm="500000000000000" id="1755"/>
-  <article title="Sirius Weaker Than Ever" desc="This SCU breaks the negative record for fewest pilgrims to Mutris since the formation of House Sirius. This weakness is yet another sign that House Dvaered must increase patrols on the border and into Sirius space." faction="Dvaered" date="0" date_to_rm="500000000000000" id="1711"/>
-  <article title="New Cat in the Imperial Family" desc="The Emperor's daughter was recently gifted a cat. Cat could be named &quot;Snuggles&quot; and seems to be all white." faction="Empire" date="0" date_to_rm="500000000000000" id="1324"/>
-  <article title="Goddard: Raising the Bar" desc="Many new scientists are being contracted by House Goddard to investigate possible improvements. This new strategy will increase the gap with the competing ship fabricators." faction="Goddard" date="0" date_to_rm="500000000000000" id="1096"/>
-  <article title="Emperor Weaker Than Ever" desc="Recent actions demonstrate the inefficiency and weakness of the Emperor. One of the last irrational decisions left Eridani without a defense fleet to protect the traders. It's a great time to be a pirate." faction="Pirate" date="0" date_to_rm="500000000000000" id="377"/>
-  <article title="New Ships for Skull and Bones" desc="The Skull and Bones was able to extract a few dozen high quality vessels from Caladan warehouses under the nose of the Empire. These ships will help keep production high and booming." faction="Pirate" date="0" date_to_rm="500000000000000" id="376"/>
+  <article title="Pirate News. News that matters." desc="Laughing at the Emperor." faction="Pirate" date="50000000000005" date_to_rm="50000000000005" id="372"/>
+  <article title="Welcome to Goddard News Centre. We bring you the news from around the Empire." desc="" faction="Goddard" date="50000000000005" date_to_rm="50000000000005" id="1091"/>
+  <article title="Welcome to the Empire News Centre." desc="Keeping you informed." faction="Empire" date="50000000000005" date_to_rm="50000000000005" id="1821"/>
+  <article title="Welcome to the Dvaered News Centre. All that happens. In simple words. So you can understand." desc="" faction="Dvaered" date="50000000000005" date_to_rm="50000000000005" id="2128"/>
+  <article title="Welcome to Universal News Feed. All the headlines all the time." desc="" faction="Independent" date="50000000000005" date_to_rm="50000000000005" id="2147"/>
+  <article title="Experiment Produces Cold Fusion" desc="In an interview with Bleeding Edge anchor McKenzie Kruft, a researcher at Eureka labs says he has produced a tabletop atomic reaction. He hopes to publish his results in a science journal later this year." faction="Generic" date="0" date_to_rm="500000000000000" id="2261"/>
+  <article title="Sneak Peek: the Kestrel" desc="Our reporter took a tour through Krain's mysterious space craft. He says it poses a challenge to the Goddard." faction="Generic" date="0" date_to_rm="500000000000000" id="2260"/>
+  <article title="FLF Terrorist Trial Ends" desc="FLF Terrorist Trial ended this SCU with an unsurprising death sentence for all five members of the Nor spaceport bombing. Execution is scheduled in 10 STP." faction="Generic" date="0" date_to_rm="500000000000000" id="2259"/>
+  <article title="Emperor's Aid Gets Hitched" desc="On Saturday, Imperial secretary Karil Lorenze married long time fiancee Rachid Baouda in the future palace gardens on Emperor's Fist. His Eminence the Bishop of Bao performed the ceremony." faction="Generic" date="0" date_to_rm="500000000000000" id="2258"/>
   <article title="Words of Tranquility" desc="We welcome many new Touched who have recently begun ministering to the Shaira echelon after their long pilgrimage on Mutris. House Sirius is still a refugee for the orphans lost in this Universe." faction="Sirius" date="0" date_to_rm="500000000000000" id="521"/>
+  <article title="New Ships for Skull and Bones" desc="The Skull and Bones was able to extract a few dozen high quality vessels from Caladan warehouses under the nose of the Empire. These ships will help keep production high and booming." faction="Pirate" date="0" date_to_rm="500000000000000" id="376"/>
+  <article title="Emperor Weaker Than Ever" desc="Recent actions demonstrate the inefficiency and weakness of the Emperor. One of the last irrational decisions left Eridani without a defense fleet to protect the traders. It's a great time to be a pirate." faction="Pirate" date="0" date_to_rm="500000000000000" id="377"/>
+  <article title="Goddard: Raising the Bar" desc="Many new scientists are being contracted by House Goddard to investigate possible improvements. This new strategy will increase the gap with the competing ship fabricators." faction="Goddard" date="0" date_to_rm="500000000000000" id="1096"/>
+  <article title="New Empire Recruits" desc="Emperor's recruiting strategy a success. Many new soldiers joining the Empire Armada. &quot;We haven't had such a successful campaign in ages!&quot; - Raid Steele, spokesman for recruiting campaign." faction="Empire" date="0" date_to_rm="500000000000000" id="1825"/>
+  <article title="Sirius Weaker Than Ever" desc="This SCU breaks the negative record for fewest pilgrims to Mutris since the formation of House Sirius. This weakness is yet another sign that House Dvaered must increase patrols on the border and into Sirius space." faction="Dvaered" date="0" date_to_rm="500000000000000" id="2132"/>
  </news>
  <vars>
   <var name="_fcap_pirate" type="num">30.000000</var>
@@ -283,14 +322,14 @@
  </vars>
  <factions>
   <faction name="Independent">
-   <standing>3.900000</standing>
+   <standing>-1.020564</standing>
    <known/>
   </faction>
   <faction name="Proteron">
    <standing>3.000000</standing>
   </faction>
   <faction name="Frontier">
-   <standing>3.900000</standing>
+   <standing>4.800000</standing>
    <known/>
   </faction>
   <faction name="Trader">
@@ -302,7 +341,7 @@
    <known/>
   </faction>
   <faction name="Empire">
-   <standing>36.700000</standing>
+   <standing>33.100000</standing>
    <known/>
   </faction>
   <faction name="Soromid">
@@ -326,7 +365,7 @@
    <known/>
   </faction>
   <faction name="Goddard">
-   <standing>-0.300000</standing>
+   <standing>-11.400000</standing>
    <known/>
   </faction>
   <faction name="Touscha">
@@ -334,8 +373,97 @@
    <known/>
   </faction>
  </factions>
- <hooks/>
+ <hooks>
+  <hook type="misn">
+   <parent>212</parent>
+   <func>sys_enter</func>
+   <id>72</id>
+   <stack>enter</stack>
+  </hook>
+ </hooks>
  <space>
+  <known sys="Khilian">
+   <planet>Khilian I</planet>
+   <planet>Khilian II</planet>
+   <planet>Sentinel Two</planet>
+   <jump>Antigone</jump>
+   <jump>Davrast</jump>
+   <jump>Triap</jump>
+  </known>
+  <known sys="Davrast">
+   <planet>Davrast I</planet>
+   <jump>Antigone</jump>
+   <jump>Khilian</jump>
+   <jump>Verivvius</jump>
+  </known>
+  <known sys="Verivvius">
+   <jump>Davrast</jump>
+   <jump>Sevrea</jump>
+   <jump>Zhett</jump>
+  </known>
+  <known sys="Undil">
+   <jump>Starpoint</jump>
+   <jump>Tormulex</jump>
+  </known>
+  <known sys="Starpoint">
+   <planet>Starpoint</planet>
+   <planet>Starpoint Shipyards</planet>
+   <planet>Touscha I</planet>
+   <planet>Touscha II</planet>
+   <planet>Touscha IV</planet>
+   <jump>Antigone</jump>
+   <jump>Kilva</jump>
+   <jump>Undil</jump>
+  </known>
+  <known sys="Triap">
+   <planet>Khelim</planet>
+   <planet>Megan Station</planet>
+   <planet>Triap I</planet>
+   <jump>Brimstone</jump>
+   <jump>Chraan</jump>
+   <jump>Haleb</jump>
+   <jump>Khilian</jump>
+  </known>
+  <known sys="Antigone">
+   <jump>Aneel Azi</jump>
+   <jump>Davrast</jump>
+   <jump>Khilian</jump>
+   <jump>Starpoint</jump>
+  </known>
+  <known sys="Anger">
+   <planet>Anger I</planet>
+   <planet>Anger II</planet>
+   <planet>Rage</planet>
+   <jump>Ryder</jump>
+   <jump>Tormulex</jump>
+  </known>
+  <known sys="Hephaestus">
+   <jump>Aneel Azi</jump>
+   <jump>Ryder</jump>
+  </known>
+  <known sys="Aneel Azi">
+   <planet>Edergast</planet>
+   <jump>Antigone</jump>
+   <jump>Brimstone</jump>
+   <jump>Hephaestus</jump>
+  </known>
+  <known sys="Karman">
+   <planet>Atalanta</planet>
+   <planet>Karman I</planet>
+   <planet>Karman II</planet>
+   <jump>Chraan</jump>
+   <jump>Gyrios</jump>
+   <jump>Nougat</jump>
+  </known>
+  <known sys="Draygar">
+   <planet>Anecu</planet>
+   <planet>Draygar III</planet>
+   <planet>Durumdra</planet>
+   <planet>Hikatalat</planet>
+   <planet>INSS-3</planet>
+   <planet>Varona</planet>
+   <jump>Tau Prime</jump>
+  </known>
   <known sys="Acheron">
    <jump>Fortitude</jump>
    <jump>Merisi</jump>
@@ -417,19 +545,6 @@
   <known sys="Andres">
    <jump>Gamel</jump>
   </known>
-  <known sys="Aneel Azi">
-   <planet>Edergast</planet>
-   <jump>Antigone</jump>
-   <jump>Brimstone</jump>
-   <jump>Hephaestus</jump>
-  </known>
-  <known sys="Anger">
-   <planet>Anger I</planet>
-   <planet>Anger II</planet>
-   <planet>Rage</planet>
-   <jump>Ryder</jump>
-   <jump>Tormulex</jump>
-  </known>
   <known sys="An'ku">
    <planet>An'ku I</planet>
    <planet>An'ku II</planet>
@@ -442,10 +557,6 @@
   </known>
   <known sys="Anrique">
    <jump>Herakin</jump>
-  </known>
-  <known sys="Antigone">
-   <jump>Aneel Azi</jump>
-   <jump>Starpoint</jump>
   </known>
   <known sys="Apez">
    <planet>Apez II</planet>
@@ -842,15 +953,6 @@
    <planet>Draconis Gamma</planet>
    <planet>Draconis Omega</planet>
    <planet>Zabween</planet>
-   <jump>Tau Prime</jump>
-  </known>
-  <known sys="Draygar">
-   <planet>Anecu</planet>
-   <planet>Draygar III</planet>
-   <planet>Durumdra</planet>
-   <planet>Hikatalat</planet>
-   <planet>INSS-3</planet>
-   <planet>Varona</planet>
    <jump>Tau Prime</jump>
   </known>
   <known sys="Druid">
@@ -1277,10 +1379,6 @@
    <jump>Apez</jump>
    <jump>Zied</jump>
   </known>
-  <known sys="Hephaestus">
-   <jump>Aneel Azi</jump>
-   <jump>Ryder</jump>
-  </known>
   <known sys="Herakin">
    <jump>Anrique</jump>
    <jump>Eiderdown</jump>
@@ -1306,6 +1404,7 @@
   <known sys="Ingot">
    <planet>Ingot I</planet>
    <planet>Ulios</planet>
+   <jump>Alvarron</jump>
    <jump>Toaxis</jump>
   </known>
   <known sys="Iris">
@@ -1362,14 +1461,6 @@
    <planet>Shade &amp; Sunshine Station</planet>
    <planet>Zalebus</planet>
    <jump>Sylph</jump>
-  </known>
-  <known sys="Karman">
-   <planet>Atalanta</planet>
-   <planet>Karman I</planet>
-   <planet>Karman II</planet>
-   <jump>Chraan</jump>
-   <jump>Gyrios</jump>
-   <jump>Nougat</jump>
   </known>
   <known sys="Kelvos">
    <jump>Mason</jump>
@@ -2104,6 +2195,10 @@
    <jump>Elza</jump>
    <jump>Hatter</jump>
   </known>
+  <known sys="Sevrea">
+   <jump>Raelid</jump>
+   <jump>Verivvius</jump>
+  </known>
   <known sys="Shakar">
    <planet>Nova Shakar</planet>
    <planet>Shakar I</planet>
@@ -2197,16 +2292,6 @@
    <planet>Starlight End III</planet>
    <planet>Tanulwa</planet>
    <jump>Treacle</jump>
-  </known>
-  <known sys="Starpoint">
-   <planet>Starpoint</planet>
-   <planet>Starpoint Shipyards</planet>
-   <planet>Touscha I</planet>
-   <planet>Touscha II</planet>
-   <planet>Touscha IV</planet>
-   <jump>Antigone</jump>
-   <jump>Kilva</jump>
-   <jump>Undil</jump>
   </known>
   <known sys="Sten">
    <jump>Atlantis</jump>
@@ -2371,14 +2456,6 @@
    <jump>Possum</jump>
    <jump>Starlight End</jump>
   </known>
-  <known sys="Triap">
-   <planet>Khelim</planet>
-   <planet>Megan Station</planet>
-   <planet>Triap I</planet>
-   <jump>Brimstone</jump>
-   <jump>Chraan</jump>
-   <jump>Haleb</jump>
-  </known>
   <known sys="Tuoladis">
    <jump>Doranthex</jump>
    <jump>Zacron</jump>
@@ -2409,10 +2486,6 @@
    <planet>Undergate V</planet>
    <planet>Wagenni</planet>
    <jump>Toxin</jump>
-  </known>
-  <known sys="Undil">
-   <jump>Starpoint</jump>
-   <jump>Tormulex</jump>
   </known>
   <known sys="Unicorn">
    <planet>Unicorn I</planet>
@@ -2564,6 +2637,14 @@
   <known sys="Zerantix">
    <jump>Arandon</jump>
   </known>
+  <known sys="Zhett">
+   <planet>Aptitude Station</planet>
+   <planet>Sentinel One</planet>
+   <planet>Zhett 16A5</planet>
+   <planet>Zhett 17B3</planet>
+   <planet>Zhett 17B9</planet>
+   <jump>Verivvius</jump>
+  </known>
   <known sys="Zied">
    <planet>Bon Sebb</planet>
    <planet>Sixbat Station</planet>
@@ -2585,22 +2666,6 @@
   <known sys="Zylex">
    <jump>Arcanis</jump>
    <jump>Doeston</jump>
-  </known>
-  <known sys="Sevrea">
-   <jump>Raelid</jump>
-   <jump>Verivvius</jump>
-  </known>
-  <known sys="Verivvius">
-   <jump>Sevrea</jump>
-   <jump>Zhett</jump>
-  </known>
-  <known sys="Zhett">
-   <planet>Aptitude Station</planet>
-   <planet>Sentinel One</planet>
-   <planet>Zhett 16A5</planet>
-   <planet>Zhett 17B3</planet>
-   <planet>Zhett 17B9</planet>
-   <jump>Verivvius</jump>
   </known>
  </space>
 </naev_save>
