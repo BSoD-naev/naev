@@ -40,16 +40,13 @@ text[6] = _([[As rogue FLF ships continue to pour in, you begin to see the dire 
     Suddenly, you notice an especially loud signal coming from the direction of Sindbad. It's a distress call! The signal will surely reach Empire and Dveared space, and it includes the coordinates of the secret jump point. You realize how desperate the situation must be for so much to be risked. All you can do now is fight, and hope that the Empire comes to your rescue.]])
 
 title[7] = _("An End To Terrorism Approaches")
-text[7] = _([[Having successfully negotiated a peace treaty with the Empire and a cease-fire with House Dvaered, and having successfully defended Sindbad from the assault by the New FLF, you are greeted with warmth for the first time in what feels like an eternity. The FLF may have fractured, but what remains appears to be stronger than ever. You do not see resentment in people's faces. On the contrary, everyone seems to be happy about the alliance and ceasefire.
+text[7] = _([[Having successfully negotiated an alliance with the Empire and a cease-fire with House Dvaered, and having successfully defended Sindbad from the assault by the New FLF, you are greeted with warmth for the first time in what feels like an eternity. The FLF may have fractured, but what remains appears to be stronger than ever. You do not see resentment in people's faces. On the contrary, everyone seems to be happy about the alliance and ceasefire.
     One of your comrades buys you a drink, and many others personally thank you for bringing about peace and protecting Sindbad. Finally, things are really looking up.]])
 
 comms = {}
 comms[1] = "There they are! Our allies are being attacked! All units, defend Sindbad!"
-comms[2] = "So now that the scum of the FLF have been driven out, they're attacking their supposed friends!"
-comms[3] = "Savages. But at least there are good ones on our side now."
-comms[4] = "Cut your yapping! We have a job to do!""
-comms[5] = "Change of plans, guys! I just got an order from the boss: retreat!"
-comms[6] = "You haven't seen the last of us, %s! Just you wait!"
+comms[2] = "Change of plans, guys! I just got an order from the boss: retreat!"
+comms[3] = "You haven't seen the last of us, %s! Just you wait!"
 
 misn_title = _("Empire Meeting")
 misn_desc = _("You are to meet with Empire Commander Petridis sort out the terms of a ceasefire with the Dvaereds.")
