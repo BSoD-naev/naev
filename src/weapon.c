@@ -31,6 +31,7 @@
 #include "gui.h"
 #include "camera.h"
 #include "ai.h"
+#include "rtree.h"
 
 
 #define weapon_isSmart(w)     (w->think != NULL) /**< Checks if the weapon w is smart. */
@@ -49,6 +50,7 @@
  */
 extern Pilot** pilot_stack;
 extern int pilot_nstack;
+extern struct rtree *pilot_rtree;
 
 
 /**
@@ -901,23 +903,48 @@ static void weapon_update( Weapon* w, const double dt, WeaponLayer layer )
    AsteroidAnchor *ast;
    Asteroid *a;
    AsteroidType *at;
+   struct rtree_iter *iter;
+   double x1, x2, y1, y2, tmp;
 
    /* Get the sprite direction to speed up calculations. */
    b     = outfit_isBeam(w->outfit);
    if (!b) {
       gfx = outfit_gfx(w->outfit);
       gl_getSpriteFromDir( &w->sx, &w->sy, gfx, w->solid->dir );
+
+      x1 = VX(w->solid->pos) - (gfx->sw / 2);
+      x2 = VX(w->solid->pos) + (gfx->sw / 2);
+      y1 = VY(w->solid->pos) - (gfx->sh / 2);
+      y2 = VY(w->solid->pos) + (gfx->sh / 2);
    }
-   else
+   else {
       gfx = NULL;
 
-   for (i=0; i<pilot_nstack; i++) {
-      p = pilot_stack[i];
+      x1 = VX(w->solid->pos);
+      y1 = VY(w->solid->pos);
+      x2 = x1 + w->outfit->u.bem.range * cos(w->solid->dir);
+      y2 = y1 + w->outfit->u.bem.range * sin(w->solid->dir);
 
-      psx = pilot_stack[i]->tsx;
-      psy = pilot_stack[i]->tsy;
+      if (x1 > x2) {
+         tmp = x1;
+	 x1 = x2;
+	 x2 = tmp;
+      }
 
-      if (w->parent == pilot_stack[i]->id) continue; /* pilot is self */
+      if (y1 > y2) {
+         tmp = y1;
+	 y1 = y2;
+	 y2 = tmp;
+      }
+   }
+
+   iter = rtree_begin(pilot_rtree);
+
+   while ((p = rtree_find(iter, x1, x2, y1, y2)) != NULL) {
+      psx = p->tsx;
+      psy = p->tsy;
+
+      if (w->parent == p->id) continue; /* pilot is self */
 
       /* Beam weapons have special collisions. */
       if (b) {
@@ -936,7 +963,7 @@ static void weapon_update( Weapon* w, const double dt, WeaponLayer layer )
       /* smart weapons only collide with their target */
       else if (weapon_isSmart(w)) {
 
-         if ((pilot_stack[i]->id == w->target) &&
+         if ((p->id == w->target) &&
                (w->status == WEAPON_STATUS_OK) &&
                weapon_checkCanHit(w,p) &&
                CollideSprite( gfx, w->sx, w->sy, &w->solid->pos,
@@ -944,6 +971,7 @@ static void weapon_update( Weapon* w, const double dt, WeaponLayer layer )
                      &p->solid->pos,
                      &crash[0] )) {
             weapon_hit( w, p, layer, &crash[0] );
+            rtree_iter_free(iter);
             return; /* Weapon is destroyed. */
          }
       }
@@ -955,10 +983,12 @@ static void weapon_update( Weapon* w, const double dt, WeaponLayer layer )
                      &p->solid->pos,
                      &crash[0] )) {
             weapon_hit( w, p, layer, &crash[0] );
+            rtree_iter_free(iter);
             return; /* Weapon is destroyed. */
          }
       }
    }
+   rtree_iter_free(iter);
 
    /* Asterokiller weapons collide with asteroids*/
    if (outfit_isAmmo(w->outfit)) {
